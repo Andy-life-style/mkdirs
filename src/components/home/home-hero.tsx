@@ -19,20 +19,21 @@ export default function HomeHero() {
           )}
         >
           <span className="mr-2">🎉</span>
-          <span>{heroConfig.label.text}</span>
+          <span>Discover Shopify Apps</span>
           <LabelIcon className="size-4" />
         </Link>
 
         {/* maybe font-sourceSans is better */}
         <h1 className="max-w-5xl font-bold text-balance text-3xl sm:text-4xl md:text-5xl">
-          {heroConfig.title.first}{" "}
+          Shopify App{" "}
           <span className="text-gradient_indigo-purple font-bold">
-            {heroConfig.title.second}
+            Directory
           </span>
         </h1>
 
         <p className="max-w-4xl text-balance text-muted-foreground sm:text-xl">
-          {heroConfig.subtitle}
+          Discover Shopify apps to grow your store, streamline operations, and
+          improve the shopping experience.
         </p>
 
         <div className="w-full">
