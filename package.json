@@ -143,6 +143,7 @@
     "autoprefixer": "^10.4.20",
     "dotenv": "^16.4.7",
     "html-loader": "^5.1.0",
+    "https-proxy-agent": "^9.1.0",
     "postcss": "^8.4.41",
     "react-email": "3.0.1",
     "rehype": "^13.0.1",
