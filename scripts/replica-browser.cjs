@@ -6,6 +6,7 @@ const path = require("node:path");
 const crypto = require("node:crypto");
 const mode = process.argv[2] || "local";
 const quick = process.argv.includes("--quick");
+const publicSmoke = process.argv.includes("--public-smoke");
 const dir = path.join(os.tmpdir(), "aitoolfame-verification");
 fs.mkdirSync(dir, { recursive: true });
 const chrome = spawn(
@@ -67,29 +68,45 @@ const routeArgument = process.argv.find((value) =>
 );
 const routes = routeArgument
   ? [routeArgument.slice(8)]
-  : quick
-    ? ["/"]
-    : [
+  : publicSmoke
+    ? [
         "/",
         "/category",
         "/category?page=2",
+        "/category?q=cursor",
+        "/category?sort=name-asc",
+        "/category?sort=name-desc",
         "/category/video",
-        "/tag",
         "/tag/free",
         "/collection",
         "/item/cursor",
         "/blog",
-        "/blog/category/seo",
         "/blog/launch-directory-seo-first-90-days",
         "/pricing",
-        "/about",
-        "/privacy",
-        "/terms",
-        "/auth/login",
-        "/auth/register",
-        "/auth/reset",
-        "/submit",
-      ];
+      ]
+    : quick
+      ? ["/"]
+      : [
+          "/",
+          "/category",
+          "/category?page=2",
+          "/category/video",
+          "/tag",
+          "/tag/free",
+          "/collection",
+          "/item/cursor",
+          "/blog",
+          "/blog/category/seo",
+          "/blog/launch-directory-seo-first-90-days",
+          "/pricing",
+          "/about",
+          "/privacy",
+          "/terms",
+          "/auth/login",
+          "/auth/register",
+          "/auth/reset",
+          "/submit",
+        ];
 async function main() {
   console.log("SCREENSHOT_DIR", dir);
   const captureAvatars = process.argv.includes("--avatar-binaries");
@@ -202,6 +219,39 @@ async function main() {
     await send("Browser.close");
     return;
   }
+  const accessUrl = process.env.REPLICA_BROWSER_ACCESS_URL;
+  if (accessUrl) {
+    const { targetId } = await send("Target.createTarget", {
+      url: "about:blank",
+    });
+    const { sessionId } = await send("Target.attachToTarget", {
+      targetId,
+      flatten: true,
+    });
+    const cmd = (method, params) => send(method, params, sessionId);
+    await cmd("Page.enable");
+    await cmd("Runtime.enable");
+    await cmd("Page.navigate", { url: accessUrl });
+    let location;
+    for (let n = 0; n < 120; n++) {
+      const response = await cmd("Runtime.evaluate", {
+        expression:
+          'document.readyState === "complete" ? ({href:location.href,title:document.title}) : null',
+        returnByValue: true,
+      });
+      location = response.result.value;
+      if (location) break;
+      await delay(250);
+    }
+    if (
+      !location ||
+      new URL(location.href).hostname !==
+        new URL(process.env.REPLICA_BROWSER_ORIGIN).hostname ||
+      location.title === "Temporarily unavailable"
+    )
+      throw new Error("Preview access did not reach the public home page");
+    await send("Target.closeTarget", { targetId });
+  }
   if (process.argv.includes("--interactions")) {
     await require("./replica-interactions.cjs")({ send, delay, mode, dir });
     await send("Browser.close");
@@ -209,7 +259,7 @@ async function main() {
   }
   const report = [];
   for (const route of routes) {
-    for (const width of quick ? [1440, 390] : [1440, 390, 768]) {
+    for (const width of quick || publicSmoke ? [1440, 390] : [1440, 390, 768]) {
       const height = width === 390 ? 844 : 1000;
       const { targetId } = await send("Target.createTarget", {
         url: "about:blank",

@@ -124,3 +124,12 @@ pnpm replica:import
 - 上线范围为公开浏览。公开 HTML 运行时继续可从 `shopapphub` 的 `replicaPage` 读取，路径、搜索、筛选、排序用随应用发布的 manifest/cards/index，图片、CSS、字体在 `public/`；不依赖本机 Chrome 或临时目录。生产/预览环境必须配置 `NEXT_PUBLIC_SANITY_PROJECT_ID=vnn8nbql`、`NEXT_PUBLIC_SANITY_DATASET=shopapphub`、`REPLICA_CONTENT_SOURCE=sanity`、正确的 `NEXT_PUBLIC_APP_URL`，且不得配置成旧 `production` dataset。平台环境变量尚未获准读取，所以正式部署停在此检查前。
 - 未验证的认证、提交、订阅和支付入口在复刻页面隐藏或标为暂不可用；相应直接页面、邮件/认证 API、newsletter API、Stripe checkout 和 webhook 在业务开关关闭时返回 503，不会出现假成功或发起收费。只有同时显式设置 `REPLICA_CMS_READY=true` 与 `REPLICA_BUSINESS_ENABLED=true` 才会开放；本次上线不得设置。预览页 robots/noindex，Vercel production 才允许索引。
 - 最新本地 `pnpm exec biome check .`、`pnpm exec tsc --noEmit`、完整 `pnpm build` 均通过；生产预览 `pnpm replica:deployment-check` 0 问题，首页 1440px/390px Chrome 无头截图为 200、0 横向溢出、0 破图、0 console error。本地浏览器检查不是独立 Vercel 预览或正式域名验证。
+
+## 2026-09-30 Vercel 预览验证（正式发布前）
+
+- Vercel 连接已重新授权，实际查询确认团队 `Andy Life Style` 的唯一目标项目 `mkdirs`，项目 ID `prj_OQoSHZl47gvMHJQny69OL8o7JiPe`。当前正式部署为 `dpl_5ykA912B81ZUxQmPWQNS9ZemVFft`，GitHub `Andy-life-style/mkdirs` 的 `main@f56e8842aa132be5acc908c32b915f313ba739b6`，READY，绑定 `shopapphub.com` 和 `www.shopapphub.com`。回滚页面：`https://vercel.com/andy-life-style/mkdirs/5ykA912B81ZUxQmPWQNS9ZemVFft`；独立地址：`https://mkdirs-a8a80gyo3-andy-life-style.vercel.app`。
+- 复刻分支 `replica/aitoolfame-local` 已推送。前两次预览曾把公开页重定向到关闭的 `/auth/login` 而返回 503。修复后把公开复刻路由放在旧 Auth.js 包装器之前，旧认证保护仍用于其余路径；分支代码固定使用 `shopapphub`，Vercel 运行时固定从该 dataset 读取公开页面 HTML，不受旧环境变量的 `AITOOLFAME_REPLICA` 或 `REPLICA_CONTENT_SOURCE=bundled` 影响。未写入 `production`。
+- 已验证的独立预览：`dpl_62sLVJmZbBBWYBTtx7YwigvV5uLo`，Git SHA `343b7e1c99c2c33c5aeaec68dd01394ad9a16575`，地址 `https://mkdirs-ougj3ytjb-andy-life-style.vercel.app`。该预览受 Vercel Authentication 保护，验证时使用临时分享链接及浏览器会话；链接不保存进仓库。
+- 预览 HTTP 实测首页、分类、标签、合集、工具详情、博客列表/分类/文章、定价、搜索、排序、分页均为 200；登录及提交入口为 503。实际 Chrome 无头在 1440px/390px 对 13 个代表性路由共 26 组截图，全部 200，0 破图、0 横向溢出、0 浏览器 warning/error。图像和报告暂存于系统临时目录 `aitoolfame-verification`，不随应用发布。
+- 预览实际交互：搜索 Cursor 出现 2 张卡片；标签与排序菜单可打开；名称升序首批卡片顺序有效；深色模式和手机菜单有效、Escape 可关闭；390px 定价页无页面横向溢出；未接通的 newsletter API 返回 503，不显示假成功。预览运行日志没有 error/fatal；robots 禁止预览索引，sitemap 使用 `https://shopapphub.com`。
+- Vercel 连接器的 `get_project` 当前存在参数映射错误（工具接收 `projectId`，后端报缺少 `idOrName`），因此不能直接列出项目环境变量。预览成功运行证明预览环境具备 Sanity 读取条件；正式环境变量的 dataset 已由代码固定为 `shopapphub`，正式部署后仍必须立即验证运行时读取和正式域名，再决定是否保留或回滚。**截至本节记录时尚未正式发布。**

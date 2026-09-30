@@ -26,7 +26,9 @@ module.exports = async ({ send, delay, mode, dir }) => {
     mobile: false,
   });
   const origin =
-    mode === "reference" ? "https://aitoolfame.com" : "http://localhost:3000";
+    mode === "reference"
+      ? "https://aitoolfame.com"
+      : process.env.REPLICA_BROWSER_ORIGIN || "http://localhost:3000";
   async function open(route) {
     await cmd("Page.navigate", { url: origin + route });
     for (let i = 0; i < 120; i++) {
