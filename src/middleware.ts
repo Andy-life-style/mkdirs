@@ -6,7 +6,12 @@ import {
   publicRoutes,
 } from "@/routes";
 import NextAuth from "next-auth";
-import { NextResponse } from "next/server";
+import {
+  type NextFetchEvent,
+  type NextMiddleware,
+  type NextRequest,
+  NextResponse,
+} from "next/server";
 
 /**
  * https://www.youtube.com/watch?v=1MTyCvS05V4
@@ -17,7 +22,7 @@ import { NextResponse } from "next/server";
 const { auth } = NextAuth({ providers: [], session: { strategy: "jwt" } });
 
 // since we have put role in user session, so we can know the role of the user
-export default auth((req) => {
+const authMiddleware = auth((req) => {
   const { nextUrl } = req;
   const replicaBusinessClosed =
     replicaMode &&
@@ -97,7 +102,27 @@ export default auth((req) => {
   }
 
   return null;
-});
+}) as NextMiddleware;
+
+// Handle public replica pages before the old Auth.js wrapper. The latter can
+// redirect anonymous Vercel requests even when the callback rewrites the page.
+export default function middleware(req: NextRequest, event: NextFetchEvent) {
+  const { nextUrl } = req;
+  const replicaRoute =
+    /^\/(?:$|category(?:\/|$)|tag(?:\/|$)|collection(?:\/|$)|item(?:\/|$)|blog(?:\/|$)|pricing$|about$|privacy$|terms$|search$)/.test(
+      nextUrl.pathname,
+    );
+  if (replicaMode && replicaRoute && req.method === "GET") {
+    const target = new URL("/replica", nextUrl);
+    const host = req.headers.get("host");
+    if (host && /^localhost(?::\d+)?$/.test(host)) target.host = host;
+    target.searchParams.set("route", nextUrl.pathname + nextUrl.search);
+    const headers = new Headers(req.headers);
+    headers.set("x-aitoolfame-route", nextUrl.pathname + nextUrl.search);
+    return NextResponse.rewrite(target, { request: { headers } });
+  }
+  return authMiddleware(req, event);
+}
 
 // https://nextjs.org/docs/app/building-your-application/routing/middleware#matcher
 // https://clerk.com/docs/references/nextjs/auth-middleware#usage
