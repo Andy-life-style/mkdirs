@@ -22,11 +22,30 @@ export async function GET(request: NextRequest) {
   if (businessUnavailable) {
     $(
       'a[href^="/submit"], a[href^="/auth/"], a[href^="/dashboard"], a[href^="/payment"]',
-    ).remove();
+    ).each((_, link) => {
+      const anchor = $(link);
+      const label = anchor.text().trim();
+      const unavailable = $("<span></span>")
+        .attr("class", anchor.attr("class") || "")
+        .attr("aria-disabled", "true")
+        .attr("title", "This feature is temporarily unavailable")
+        .attr("style", "opacity:.55;cursor:not-allowed")
+        .html(anchor.html() || "");
+      if (label.includes("Submit your product"))
+        unavailable
+          .find("span")
+          .last()
+          .text("Submissions temporarily unavailable");
+      anchor.replaceWith(unavailable);
+    });
     $('button[aria-label="Save tool"]').remove();
     $("button").each((_, button) => {
       const label = $(button).text().trim();
-      if (label === "Submit" || label === "Sign In") $(button).remove();
+      if (label === "Submit" || label === "Sign In")
+        $(button)
+          .attr("disabled", "disabled")
+          .attr("title", "This feature is temporarily unavailable")
+          .attr("style", "opacity:.55;cursor:not-allowed");
       if (label === "Go Submit") {
         $(button).replaceWith(
           '<span class="replica-unavailable">Currently unavailable</span>',

@@ -5005,5 +5005,50 @@
       "/tag/android",
       "/tag/paid"
     ]
+  },
+  {
+    "route": "/item/crawlready",
+    "name": "CrawlReady",
+    "description": "Make your JavaScript site visible to AI crawlers. Only 31% render JS. CrawlReady fixes this in 5 minutes with citation tracking and schema injection.",
+    "categories": [
+      "/category/business",
+      "/category/marketing",
+      "/category/development"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/faceless-reels",
+    "name": "Faceless Reels",
+    "description": "Create faceless reels with AI scripts, scene prompts, script drafts, captions, and reusable workflows for Instagram Reels, TikTok, and YouTube Shorts.",
+    "categories": [
+      "/category/video",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/datahabibi",
+    "name": "dataHabibi",
+    "description": "AI-powered Dubai housing forecasts, building-level prices, rental yields, and registered DLD transactions for buyers and investors.",
+    "categories": [
+      "/category/business",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/ios"
+    ]
   }
 ]

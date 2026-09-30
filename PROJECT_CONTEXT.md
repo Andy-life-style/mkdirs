@@ -133,3 +133,23 @@ pnpm replica:import
 - 预览 HTTP 实测首页、分类、标签、合集、工具详情、博客列表/分类/文章、定价、搜索、排序、分页均为 200；登录及提交入口为 503。实际 Chrome 无头在 1440px/390px 对 13 个代表性路由共 26 组截图，全部 200，0 破图、0 横向溢出、0 浏览器 warning/error。图像和报告暂存于系统临时目录 `aitoolfame-verification`，不随应用发布。
 - 预览实际交互：搜索 Cursor 出现 2 张卡片；标签与排序菜单可打开；名称升序首批卡片顺序有效；深色模式和手机菜单有效、Escape 可关闭；390px 定价页无页面横向溢出；未接通的 newsletter API 返回 503，不显示假成功。预览运行日志没有 error/fatal；robots 禁止预览索引，sitemap 使用 `https://shopapphub.com`。
 - Vercel 连接器的 `get_project` 当前存在参数映射错误（工具接收 `projectId`，后端报缺少 `idOrName`），因此不能直接列出项目环境变量。预览成功运行证明预览环境具备 Sanity 读取条件；正式环境变量的 dataset 已由代码固定为 `shopapphub`，正式部署后仍必须立即验证运行时读取和正式域名，再决定是否保留或回滚。**截至本节记录时尚未正式发布。**
+
+## 2026-09-30 正式发布与线上验证（以本节为最新状态）
+
+- 已将经验证的复刻分支 `replica/aitoolfame-local` 以普通快进推送到 `main`，没有强推或覆盖历史。正式提交 SHA 为 `e6b48a635fa222823b3bc5d694dfd695ae0ae210`。该提交对应独立预览 `dpl_8ThSnEXCjKmJ4XT8eaYAz9LRhguM`，地址 `https://mkdirs-gabp8ok7j-andy-life-style.vercel.app`（受 Vercel Authentication 保护）；最终预览的 1440px/390px 首页复测 200、0 破图、0 溢出、0 控制台错误。
+- Vercel 正式部署 `dpl_E3Zfs8SNuyyx1NwaRnKZb4BTp5Bj`，地址 `https://mkdirs-nghkyjjrq-andy-life-style.vercel.app`，状态 READY，来源为 `main@e6b48a6`，实际绑定 `https://shopapphub.com` 与 `https://www.shopapphub.com`。两个正式域名首页均实际返回 200 和 AIToolFame 标题，旧站标题在发布前为 `Directory`。
+- 正式域名 HTTP 实测首页、目录、分类、标签、合集、工具详情、博客列表/分类/文章、定价、关于/隐私/条款、featured 与标签筛选、搜索、排序、分页及 `/search` 别名均为 200。代表性 CSS/PNG/ICO 实际为 200 且 MIME 正确。
+- 正式域名 Chrome 无头在 1440px/390px 对 13 个代表路由共 26 组截图，全部 200、0 破图、0 页面横向溢出、0 浏览器 warning/error。交互实测搜索 Cursor 返回 2 张卡片、排序菜单和名称排序有效、标签筛选有效、深色模式和手机菜单有效、Escape 可关闭菜单；390px 定价页页面宽度为 390px。报告和截图保存在系统临时目录 `aitoolfame-verification`，不在源码中。
+- 正式域名的定价提交按钮显示暂不可用，公开首页与定价页未出现认证/提交链接；`/auth/login`、`/submit`、`/payment/test` 均返回 503，newsletter API 返回 503，不产生假成功或收费。认证、邮件送达、支付、登录后提交仍未接通和端到端测试，不应宣称已开放。
+- 正式部署的 Vercel runtime 日志没有 error/fatal。正式 `robots.txt` 为 `Allow: /`，sitemap 200 且有 372 个 URL，指向 `shopapphub.com`。源代码在 Vercel 运行时从 Sanity `shopapphub` 读取页面 HTML，dataset 常量固定为 `shopapphub`；搜索索引与 455 个资源仍随应用发布。生产部署的页面实际 200 证明其运行时具备所需的 Sanity 读取配置，但 Vercel `get_project` 工具的参数错误仍使环境变量列表无法直接审阅。没有写入原 `production` dataset。
+- 上一版正式部署 `dpl_5ykA912B81ZUxQmPWQNS9ZemVFft` 仍为 READY 的回滚候选，Git SHA `f56e8842aa132be5acc908c32b915f313ba739b6`，后台位置 `https://vercel.com/andy-life-style/mkdirs/5ykA912B81ZUxQmPWQNS9ZemVFft`。当前未发现严重故障，没有回滚。
+- 发布前最后一次 `pnpm exec biome check .`、`pnpm exec tsc --noEmit` 和完整 `$env:NEXT_BUILD_DIR='.next-validation'; pnpm build` 均通过。仓库保留用户原有未跟踪文件 `scripts/count-sanity-docs.ts`，未加入提交。此节是上线后的本地进度记录，不影响已发布提交。
+
+## 2026-09-30 参考站内容刷新与复核
+
+- 当前参考 sitemap 有 376 个 URL，刷新后保存 595 个有效公开页面版本（319 个真实工具详情）；原线上版有 590 个版本、316 个详情。新增 `crawlready`、`datahabibi`、`faceless-reels` 三个详情及相关分页/分类内容。`xing-du-miai` 虽在 sitemap 中，但参考页面仅返回 `NEXT_NOT_FOUND`，仍作为唯一来源失败项，不编造正文。`/search` 两个登录重定向版本被规范化排除。
+- `replica:crawl --refresh` 只执行 GET，重新采集公开 HTML 与授权资源。资源清单现有 458 项，451 个图片/图标文件需在 Sanity 中保存；工具卡片索引 319 项。目录标题更新为参考站当前的 320，视频分类更新为 60。访客统计随快照更新，不连接参考站服务。
+- `pnpm replica:prepare` 再次只读核实 `production` 备份的 316 份文档和 100 个资源 SHA-256；目标仅为 `shopapphub`。两次 `pnpm replica:import` 后目标有 595 个 `replicaPage`、431 个图片资产、20 个文件资产；第一次仅新增 3 个图片，第二次上传 0、复用 451。导入失败 0，原 `production` 没有写入。
+- 未配置的认证、提交、订阅和支付入口在公开页面显示为明确禁用状态，不会引导访客进入无法完成的流程；对应服务仍返回 503，不产生假成功或真实收费。导航和宣传横幅的布局因此更接近参考站。
+- 完整本地 `pnpm build`、Biome、TypeScript 已通过；595 个保存页面经 `replica:verify` 检查 0 失败；`replica:deployment-check` 核对页面、资源、图片、搜索和排序均 0 问题。本地 Chrome 在 1440px/390px 对 16 个代表路由截图，共 32 个视口，均 200、0 破图、0 页面横向溢出、0 控制台错误；搜索、标签筛选、排序、深色模式、手机菜单均可操作。
+- 当前正式站回滚点：`dpl_E3Zfs8SNuyyx1NwaRnKZb4BTp5Bj`，`main@e6b48a635fa222823b3bc5d694dfd695ae0ae210`，`https://vercel.com/andy-life-style/mkdirs/E3Zfs8SNuyyx1NwaRnKZb4BTp5Bj`。本节记录的是待发布更新，实际预览和生产部署结果需在发布后追加。

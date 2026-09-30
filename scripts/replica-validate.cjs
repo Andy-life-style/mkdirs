@@ -17,6 +17,7 @@ const routes = Object.entries(m.pages).filter(
   ([r]) => !r.startsWith("/search"),
 );
 let cursor = 0;
+let completed = 0;
 async function main() {
   await Promise.all(
     Array.from({ length: 4 }, async () => {
@@ -54,8 +55,9 @@ async function main() {
         } catch (e) {
           failures.push({ route, error: e.message });
         }
-        if (results.length % 50 === 0)
-          console.log("CHECKED", results.length, "FAILURES", failures.length);
+        completed++;
+        if (completed % 50 === 0)
+          console.log("CHECKED", completed, "FAILURES", failures.length);
       }
     }),
   );

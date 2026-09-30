@@ -4,6 +4,7 @@ const path = require("node:path");
 const crypto = require("node:crypto");
 const { load } = require("cheerio");
 const ORIGIN = "https://aitoolfame.com";
+const refresh = process.argv.includes("--refresh");
 const ROOT = process.cwd();
 const OUT = path.join(ROOT, "content/aitoolfame");
 const CACHE = path.join(ROOT, ".replica-cache");
@@ -199,10 +200,12 @@ function enqueue(value) {
 async function collect(key) {
   const file = `${hash(key)}.html`;
   const cacheFile = path.join(CACHE, file);
-  const raw = fs.existsSync(cacheFile)
-    ? fs.readFileSync(cacheFile, "utf8")
-    : await get(ORIGIN + key);
-  if (!fs.existsSync(cacheFile)) fs.writeFileSync(cacheFile, raw);
+  const cached = fs.existsSync(cacheFile);
+  const raw =
+    cached && !refresh
+      ? fs.readFileSync(cacheFile, "utf8")
+      : await get(ORIGIN + key);
+  if (!cached || refresh) fs.writeFileSync(cacheFile, raw);
   const $ = load(raw);
   resolveStream($);
   $("a[href]").each((i, e) => enqueue($(e).attr("href")));
