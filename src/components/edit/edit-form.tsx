@@ -62,9 +62,7 @@ export function EditForm({ item, tagList, categoryList }: EditFormProps) {
       link: item.link,
       description: item.description,
       introduction: item.introduction,
-      ...(SUPPORT_ITEM_ICON
-        ? { iconId: item.icon?.asset?._ref ?? "" }
-        : {}),
+      ...(SUPPORT_ITEM_ICON ? { iconId: item.icon?.asset?._ref ?? "" } : {}),
       imageId: item.image?.asset?._ref,
       tags: item.tags.map((tag) => tag._id),
       categories: item.categories.map((category) => category._id),
@@ -269,7 +267,9 @@ export function EditForm({ item, tagList, categoryList }: EditFormProps) {
                         <div className="mt-4 w-full h-[370px]">
                           <ImageUpload
                             onUploadChange={handleUploadIconChange}
-                            currentImageUrl={item.icon ? urlForImage(item.icon).src : ""}
+                            currentImageUrl={
+                              item.icon ? urlForImage(item.icon).src : ""
+                            }
                             type="icon"
                           />
                         </div>

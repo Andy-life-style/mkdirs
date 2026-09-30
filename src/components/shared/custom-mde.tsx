@@ -81,7 +81,7 @@ const CustomMde = React.forwardRef<HTMLDivElement, CustomMdeProps>(
         />
       </div>
     );
-  }
+  },
 );
 
 CustomMde.displayName = "CustomMde";

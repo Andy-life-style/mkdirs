@@ -67,7 +67,7 @@ export default {
           }
           return userWithRole;
         }
-        console.error("authorize error: passwords do not match");        
+        console.error("authorize error: passwords do not match");
         // Return `null` to indicate that the credentials are invalid
         return null;
       },

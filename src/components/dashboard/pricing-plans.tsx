@@ -91,11 +91,13 @@ const PricingPlanCard = ({ item, pricePlan }: PricingPlanCardProps) => {
           <div className="mt-12 px-6">
             {pricePlan.title.toUpperCase() === PricePlans.FREE.toUpperCase() ? (
               <FreePlanButton item={item} className="w-full" />
-            ) : pricePlan.title.toUpperCase() === PricePlans.SPONSOR.toUpperCase() ? (
-              <SponsorPlanButton 
+            ) : pricePlan.title.toUpperCase() ===
+              PricePlans.SPONSOR.toUpperCase() ? (
+              <SponsorPlanButton
                 item={item}
                 pricePlan={pricePlan}
-                className="w-full" />
+                className="w-full"
+              />
             ) : (
               <ProPlanButton
                 item={item}

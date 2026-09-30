@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  distDir: process.env.NEXT_BUILD_DIR || ".next",
+  experimental: {
+    cpus: 2,
+    webpackBuildWorker: false,
+    outputFileTracingIncludes: { "/replica": ["./content/aitoolfame/**/*"] },
+  },
   // Configure `pageExtensions` to include markdown and MDX files
   // https://nextjs.org/docs/pages/building-your-application/configuring/mdx
   // pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],

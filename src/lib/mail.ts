@@ -7,7 +7,16 @@ import { ResetPasswordEmail } from "@/emails/reset-password";
 import VerifyEmail from "@/emails/verify-email";
 import { Resend } from "resend";
 
-export const resend = new Resend(process.env.RESEND_API_KEY);
+let resendInstance: Resend | undefined;
+export const resend = new Proxy({} as Resend, {
+  get(_target, property) {
+    const key = process.env.RESEND_API_KEY;
+    if (!key)
+      throw new Error("Email delivery is not configured for this project");
+    resendInstance ??= new Resend(key);
+    return Reflect.get(resendInstance, property);
+  },
+});
 
 const SITE_URL = process.env.NEXT_PUBLIC_APP_URL;
 

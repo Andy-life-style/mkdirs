@@ -209,7 +209,7 @@ export default async function ItemPage({ params }: ItemPageProps) {
               <div className="bg-muted/50 rounded-lg p-6">
                 <h2 className="text-lg font-semibold mb-4">Information</h2>
                 <ul className="space-y-4 text-sm">
-                {item.submitter && (
+                  {item.submitter && (
                     <li className="flex justify-between">
                       <span className="text-muted-foreground">Publisher</span>
                       <div className="flex items-center gap-2">
@@ -309,7 +309,11 @@ export default async function ItemPage({ params }: ItemPageProps) {
           </div>
 
           <div className="mt-4">
-            <ItemGrid items={item.related} sponsorItems={sponsorItems} showSponsor={false} />
+            <ItemGrid
+              items={item.related}
+              sponsorItems={sponsorItems}
+              showSponsor={false}
+            />
           </div>
         </div>
       )}

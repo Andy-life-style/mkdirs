@@ -1,36 +1,43 @@
 {
-	"files": {
-		"ignore": [
-			"src/components/ui/*.tsx"
-		]
-	},
-	"formatter": {
-	  "enabled": true,
-	  "formatWithErrors": false,
-	  "ignore": [],
-	  "attributePosition": "auto",
-	  "indentStyle": "space",
-	  "indentWidth": 2,
-	  "lineWidth": 80,
-	  "lineEnding": "lf"
-	},
-	"javascript": {
-	  "formatter": {
-		"arrowParentheses":"always",
-		"bracketSameLine": false,
-		"bracketSpacing": true,
-		"jsxQuoteStyle": "double",
-		"quoteProperties": "asNeeded",
-		"semicolons": "always",
-		"trailingCommas": "all"
-	  }
-	},
-	"json": {
-	  "formatter": {
-		"trailingCommas": "none"
-	  }
-	},
-	"organizeImports": {
-		"enabled": true
-	}
+  "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+  "files": {
+    "ignore": [
+      "src/components/ui/*.tsx",
+      "content/**",
+      "public/replica-assets/**",
+      "public/replica-index.json",
+      "sanity.types.ts",
+      "schema.json",
+      "scripts/count-sanity-docs.ts"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": false,
+    "ignore": [],
+    "attributePosition": "auto",
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 80,
+    "lineEnding": "lf"
+  },
+  "javascript": {
+    "formatter": {
+      "arrowParentheses": "always",
+      "bracketSameLine": false,
+      "bracketSpacing": true,
+      "jsxQuoteStyle": "double",
+      "quoteProperties": "asNeeded",
+      "semicolons": "always",
+      "trailingCommas": "all"
+    }
+  },
+  "json": {
+    "formatter": {
+      "trailingCommas": "none"
+    }
+  },
+  "organizeImports": {
+    "enabled": true
+  }
 }

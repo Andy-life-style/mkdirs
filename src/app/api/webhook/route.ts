@@ -19,6 +19,14 @@ import type Stripe from "stripe";
  * https://github.com/javayhu/lms-studio-antonio/blob/main/app/api/webhook/route.ts
  */
 export async function POST(req: Request) {
+  if (
+    process.env.AITOOLFAME_REPLICA !== "false" &&
+    (process.env.REPLICA_CMS_READY !== "true" ||
+      process.env.REPLICA_BUSINESS_ENABLED !== "true")
+  )
+    return new Response("Payments are temporarily unavailable.", {
+      status: 503,
+    });
   const body = await req.text();
   const signature = headers().get("Stripe-Signature") as string;
 

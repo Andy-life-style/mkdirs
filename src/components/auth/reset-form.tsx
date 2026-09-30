@@ -27,6 +27,7 @@ export const ResetForm = () => {
   const [isPending, startTransition] = useTransition();
 
   const form = useForm<z.infer<typeof ResetSchema>>({
+    mode: "onChange",
     resolver: zodResolver(ResetSchema),
     defaultValues: {
       email: "",
@@ -85,10 +86,11 @@ export const ResetForm = () => {
               )}
             />
           </div>
+          <div className="h-[65px]" aria-hidden="true" />
           <FormError message={error} />
           <FormSuccess message={success} />
           <Button
-            disabled={isPending}
+            disabled={isPending || !form.formState.isValid}
             size="lg"
             type="submit"
             className="w-full flex items-center justify-center gap-2"

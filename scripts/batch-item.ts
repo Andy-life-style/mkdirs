@@ -23,22 +23,22 @@ const client = createClient({
 
 /**
  * AI-Powered Item Management System
- * 
+ *
  * An automated script for managing content items in Sanity CMS using AI SDK
  * and Microlink for data enrichment.
- * 
+ *
  * Core Functions:
  * 1. Content Scraping: Extract data from URLs using Microlink
  * 2. AI Analysis: Process content using Google's Gemini AI
  * 3. Asset Management: Handle images and icons
  * 4. Database Operations: CRUD operations in Sanity
- * 
+ *
  * Data Processing Flow:
  * 1. URL → Microlink (metadata) + AI SDK (content analysis)
  * 2. Data Enrichment → Categories & Tags mapping
  * 3. Asset Processing → Icon & Image handling
  * 4. Sanity Import → Structured content creation
- * 
+ *
  * Content Structure:
  * - name: Title of the item
  * - slug: Auto-generated URL-friendly identifier
@@ -49,20 +49,20 @@ const client = createClient({
  * - tags: Auto-mapped tag references
  * - image: Screenshot or main image
  * - icon: Favicon or logo
- * 
+ *
  * Key Features:
  * - AI-powered content analysis
  * - Automated metadata extraction
  * - Smart category/tag mapping
  * - Automated asset management
  * - Bulk processing support
- * 
+ *
  * Requirements:
  * - Sanity CMS credentials
  * - Google AI SDK access
  * - Microlink API access
  * - Environment variables configured
- * 
+ *
  * Usage:
  * 1. pnpm run item remove
  * remove all items
@@ -73,10 +73,7 @@ const client = createClient({
  * 4. pnpm run item fetch <url>
  * fetch item info for the specified url
  */
-const links = [
-  "https://mkdirs.com",
-  "https://achromatic.dev",
-];
+const links = ["https://mkdirs.com", "https://achromatic.dev"];
 
 export const removeItems = async () => {
   const data = await client.delete({
@@ -136,7 +133,7 @@ export const fetchItemWithMicrolink = async (url: string) => {
       error,
     );
     return null;
-  } 
+  }
 };
 
 /**
@@ -164,14 +161,14 @@ export const fetchItemWithAISdk = async (url: string) => {
         .describe("Array of category names that best match the content"),
       tags: z
         .array(z.string())
-        .describe("Array of tag names that best match the content")
+        .describe("Array of tag names that best match the content"),
     });
 
     const response = await fetch(url);
     const htmlContent = (await response.text())
-      .replace(/class="[^"]*"/g, '')
-      .replace(/<svg[^>]*>.*?<\/svg>/g, '')
-      .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+      .replace(/class="[^"]*"/g, "")
+      .replace(/<svg[^>]*>.*?<\/svg>/g, "")
+      .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "");
     const result = await generateObject({
       model: google("gemini-2.0-flash-exp", {
         structuredOutputs: true,

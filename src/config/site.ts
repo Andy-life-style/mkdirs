@@ -3,11 +3,10 @@ import type { SiteConfig } from "@/types";
 const SITE_URL = process.env.NEXT_PUBLIC_APP_URL;
 
 export const siteConfig: SiteConfig = {
-  name: "Directory",
-  tagline:
-    "This is a demo site for Mkdirs, the best directory website template",
+  name: "AIToolFame",
+  tagline: "Discover the best AI Tools in 2026",
   description:
-    "This is a demo site for Mkdirs template. Mkdirs is the ultimate directory website template. With Mkdirs, you can build any trending and profitable directory website in minutes, packed with Listings, Newsletter, Payment, CMS, Blog, Authentication, SEO, Themes and more",
+    "AIToolFame.com is a curated directory of AI tools, helping users discover the best AI tools while giving founders a platform to showcase their AI tools.",
   keywords: [
     "Directory",
     "Template",
@@ -21,9 +20,9 @@ export const siteConfig: SiteConfig = {
     "Stripe",
     "Vercel",
   ],
-  author: "Mkdirs",
+  author: "AIToolFame",
   url: SITE_URL,
-  logo: "/logo.png",
+  logo: "/replica-assets/fc0857be459c35f9d7184114.png",
   // set the logoDark if you have put the logo-dark.png in the public folder
   // logoDark: "/logo-dark.png",
   // please increase the version number when you update the image

@@ -5,6 +5,9 @@
  */
 export const publicRoutes = [
   "/",
+  "/replica",
+  "/api/replica-newsletter",
+  "/api/replica-services",
   "/studio(/.*)?",
 
   "/search(/.*)?",

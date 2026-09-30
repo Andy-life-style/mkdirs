@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="54" viewBox="0 0 250 54" role="img" aria-labelledby="badge-title badge-description">
+  <title id="badge-title">Domain Rating 56 for aitoolfame.com</title>
+  <desc id="badge-description">CERTIFIED DOMAIN RATING</desc>
+  <defs>
+    <linearGradient id="dr-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffff00"/>
+      <stop offset="100%" stop-color="#ff0000"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="249" height="53" rx="8" fill="#ffffff" stroke="#d8d8d8" stroke-width="1"/>
+  
+      
+    <g transform="rotate(-90 28 27)">
+      <circle cx="28" cy="27" r="18" fill="none" stroke="#eeeeee" stroke-width="6"/>
+      <circle cx="28" cy="27" r="18" fill="none" stroke="url(#dr-gradient)" stroke-width="6"
+        stroke-linecap="round" stroke-dasharray="113.10"
+        stroke-dashoffset="49.76"/>
+    </g>
+      <text x="28" y="33" fill="#000000" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">56</text>
+      <text x="60" y="26" fill="#000000" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700">aitoolfame.com</text>
+      <text x="60" y="42" fill="#888888" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="700" font-style="normal">CERTIFIED DOMAIN RATING</text>
+      
+    <g transform="translate(208 15)" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+      <polyline points="17 6 23 6 23 12"/>
+    </g>
+</svg>

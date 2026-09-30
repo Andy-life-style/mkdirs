@@ -19,6 +19,12 @@ export async function login(
   values: z.infer<typeof LoginSchema>,
   callbackUrl?: string | null,
 ): Promise<ServerActionResponse> {
+  if (process.env.REPLICA_CMS_READY === "false") {
+    return {
+      status: "error",
+      message: "Sign in is not available yet. Please try again later.",
+    };
+  }
   const validatedFields = LoginSchema.safeParse(values);
   if (!validatedFields.success) {
     return { status: "error", message: "Invalid fields!" };

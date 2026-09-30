@@ -14,6 +14,15 @@ export type ServerActionResponse = {
 export async function reset(
   values: z.infer<typeof ResetSchema>,
 ): Promise<ServerActionResponse> {
+  if (
+    process.env.REPLICA_CMS_READY === "false" ||
+    !process.env.RESEND_API_KEY
+  ) {
+    return {
+      status: "error",
+      message: "Password reset is not available yet. Please try again later.",
+    };
+  }
   const validatedFields = ResetSchema.safeParse(values);
   if (!validatedFields.success) {
     return { status: "error", message: "Invalid email!" };

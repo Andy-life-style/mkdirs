@@ -24,6 +24,15 @@ export async function createCheckoutSession(
   priceId: string,
   pricePlan: string,
 ): Promise<ServerActionResponse> {
+  if (
+    process.env.AITOOLFAME_REPLICA !== "false" &&
+    (process.env.REPLICA_CMS_READY !== "true" ||
+      process.env.REPLICA_BUSINESS_ENABLED !== "true")
+  )
+    return {
+      status: "error",
+      message: "Payments are temporarily unavailable.",
+    };
   let redirectUrl = "";
 
   try {
@@ -89,15 +98,12 @@ export async function createCheckoutSession(
       }
 
       // 4. create stripe checkout session
-      console.log(
-        "Creating Stripe checkout session:",
-        {
-          customerId: stripeCustomerId,
-          priceId,
-          userId: user.id,
-          itemId,
-        }
-      );
+      console.log("Creating Stripe checkout session:", {
+        customerId: stripeCustomerId,
+        priceId,
+        userId: user.id,
+        itemId,
+      });
       // TODO: optimize the success and cancel urls with sessionId!!!
       const successUrl = absoluteUrl(`/publish/${itemId}?pay=success`);
       const cancelUrl = absoluteUrl(`/payment/${itemId}?pay=failed`);

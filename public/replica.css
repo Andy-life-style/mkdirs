@@ -1,0 +1,122 @@
+/* Local progressive enhancements; the archived public design remains authoritative. */
+html {
+  scroll-behavior: smooth;
+}
+img {
+  max-width: 100%;
+}
+.replica-tag-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+.replica-tag-option:hover {
+  background: hsl(var(--accent));
+}
+.replica-tag-option input {
+  accent-color: hsl(var(--primary));
+}
+.replica-popover {
+  position: fixed;
+  z-index: 100;
+  min-width: 180px;
+  max-height: 70vh;
+  overflow: auto;
+  padding: 6px;
+  background: hsl(var(--popover));
+  color: hsl(var(--popover-foreground));
+  border: 1px solid hsl(var(--border));
+  border-radius: 10px;
+  box-shadow: 0 12px 40px #0002;
+}
+.replica-popover button,
+.replica-popover a {
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 6px;
+}
+.replica-popover button:hover,
+.replica-popover a:hover {
+  background: hsl(var(--accent));
+}
+.replica-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: #0006;
+}
+.replica-drawer {
+  position: fixed;
+  z-index: 100;
+  inset: 0 auto 0 0;
+  width: min(320px, 85vw);
+  background: hsl(var(--background));
+  padding: 24px;
+  overflow: auto;
+}
+.replica-drawer a {
+  display: block;
+  padding: 12px 0;
+}
+.replica-drawer button {
+  float: right;
+  padding: 8px;
+}
+.replica-page-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.replica-page-link:hover,
+.replica-page-link.active {
+  background: hsl(var(--accent));
+  border: 1px solid hsl(var(--border));
+}
+.replica-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 200;
+  max-width: min(400px, calc(100vw - 48px));
+  padding: 16px 20px;
+  border-radius: 10px;
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--background));
+  box-shadow: 0 4px 30px #0002;
+}
+.replica-unavailable {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid hsl(var(--border));
+  color: hsl(var(--muted-foreground));
+  font-size: 14px;
+}
+[data-replica-newsletter] [role="status"] {
+  max-width: 400px;
+  font-size: 14px;
+  margin-top: 12px;
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid hsl(var(--primary));
+  outline-offset: 3px;
+}
+@media (max-width: 640px) {
+  /* The reference's highlighted plan scales outside the 390px viewport. */
+  main .scale-110 {
+    transform: none;
+  }
+  pre {
+    max-width: calc(100vw - 32px);
+    overflow-x: auto;
+  }
+}

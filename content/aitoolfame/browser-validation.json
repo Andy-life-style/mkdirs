@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-29T12:49:12.438Z",
+  "origin": "http://localhost:3001",
+  "browser": "Chrome 156 headless CDP",
+  "viewports": 57,
+  "widths": [
+    1440,
+    390,
+    768
+  ],
+  "routeTypes": 19,
+  "overflow": [],
+  "brokenImages": [],
+  "warnings": [],
+  "errors": [],
+  "statusFailures": [],
+  "screenshotsDirectory": "C:\\Users\\CHENFULAI\\AppData\\Local\\Temp\\aitoolfame-verification",
+  "notes": "The nine auth viewports were recaptured after the same-origin webmanifest fix; other public snapshot views were recaptured immediately before that head-only change."
+}

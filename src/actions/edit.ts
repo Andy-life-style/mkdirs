@@ -15,7 +15,6 @@ import { sanityClient } from "@/sanity/lib/client";
 import { revalidatePath } from "next/cache";
 
 // biome-ignore format: conditional type
-// biome-ignore lint/complexity/noBannedTypes: support item icon
 // type IconField = typeof SUPPORT_ITEM_ICON extends true ? { iconId: string } : {};
 
 // export type EditFormData = {

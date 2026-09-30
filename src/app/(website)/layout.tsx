@@ -16,6 +16,7 @@ import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
 
 export const metadata = constructMetadata();
+export const dynamic = "force-dynamic";
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -27,7 +28,9 @@ export default async function RootLayout({ children }: RootLayoutProps) {
 
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head>
+        <link rel="manifest" href="/site.webmanifest" />
+      </head>
       <body
         className={cn(
           "min-h-screen bg-background antialiased",
@@ -53,9 +56,10 @@ export default async function RootLayout({ children }: RootLayoutProps) {
             {/* https://sonner.emilkowal.ski/toaster */}
             <Toaster richColors position="top-right" offset={64} />
 
-            <TailwindIndicator />
-
-            <Analytics />
+            {process.env.AITOOLFAME_REPLICA === "false" && (
+              <TailwindIndicator />
+            )}
+            {process.env.AITOOLFAME_REPLICA === "false" && <Analytics />}
           </ThemeProvider>
         </SessionProvider>
       </body>

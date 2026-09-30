@@ -18,14 +18,16 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*", "./*"],
+      "@/*": ["./src/*", "./*"]
     }
   },
   "include": [
-    "next-env.d.ts", 
-    "**/*.ts", 
-    "**/*.tsx", 
-    ".next/types/**/*.ts"
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next-production/types/**/*.ts",
+    ".next-validation/types/**/*.ts"
   ],
   "exclude": ["node_modules"]
 }

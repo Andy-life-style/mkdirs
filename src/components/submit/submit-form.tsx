@@ -154,8 +154,8 @@ export function SubmitForm({ tagList, categoryList }: SubmitFormProps) {
       if (data.categories) {
         form.setValue(
           "categories",
-          data.categories.map((category) =>
-            categoryList.find((c) => c.name === category)?._id,
+          data.categories.map(
+            (category) => categoryList.find((c) => c.name === category)?._id,
           ),
         );
       }
@@ -229,14 +229,22 @@ export function SubmitForm({ tagList, categoryList }: SubmitFormProps) {
                             <DialogHeader>
                               <DialogTitle>AI Autofill</DialogTitle>
                               <DialogDescription>
-                                Would you like AI to automatically fill in the form by the URL? It may take some time, so please wait patiently.
+                                Would you like AI to automatically fill in the
+                                form by the URL? It may take some time, so
+                                please wait patiently.
                               </DialogDescription>
                             </DialogHeader>
                             <div className="flex justify-end gap-2">
-                              <Button variant="outline" onClick={() => setDialogOpen(false)}>
+                              <Button
+                                variant="outline"
+                                onClick={() => setDialogOpen(false)}
+                              >
                                 Cancel
                               </Button>
-                              <Button onClick={handleAIFetch} disabled={isAIProcessing}>
+                              <Button
+                                onClick={handleAIFetch}
+                                disabled={isAIProcessing}
+                              >
                                 {isAIProcessing ? (
                                   <>
                                     <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />

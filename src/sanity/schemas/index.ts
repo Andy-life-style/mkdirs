@@ -12,9 +12,11 @@ import item from "./documents/directory/item";
 import tag from "./documents/directory/tag";
 import order from "./documents/order/order";
 import page from "./documents/page/page";
+import replicaPage from "./documents/replica-page";
 import settings from "./documents/settings";
 
 export const schemaTypes = [
+  replicaPage,
   // directory
   item,
   tag,

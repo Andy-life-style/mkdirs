@@ -11,6 +11,8 @@
 
 # next.js
 /.next/
+/.next-production/
+/.next-validation/
 /out/
 
 # production
@@ -39,3 +41,7 @@ next-env.d.ts
 
 # idea
 /.idea/
+
+# Reproducible reference crawl cache and private backups
+/.replica-cache/
+/backups/

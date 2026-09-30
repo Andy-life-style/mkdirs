@@ -6,6 +6,7 @@ import { DEFAULT_LOGIN_REDIRECT } from "@/routes";
 import { signIn } from "next-auth/react";
 import { useSearchParams } from "next/navigation";
 import { useState } from "react";
+import { toast } from "sonner";
 import { FaBrandsGitHub } from "../icons/github";
 import { FaBrandsGoogle } from "../icons/google";
 
@@ -19,6 +20,22 @@ export const SocialLoginButton = () => {
 
   const onClick = async (provider: "google" | "github") => {
     setIsLoading(provider);
+    try {
+      const availability = await fetch("/api/replica-services").then(
+        (response) => response.json(),
+      );
+      if (!availability[provider]) {
+        toast.error(
+          "This sign-in option is not available yet. Please try again later.",
+        );
+        setIsLoading(null);
+        return;
+      }
+    } catch {
+      toast.error("Unable to sign in right now. Please try again later.");
+      setIsLoading(null);
+      return;
+    }
     signIn(provider, {
       callbackUrl: callbackUrl || DEFAULT_LOGIN_REDIRECT,
     });

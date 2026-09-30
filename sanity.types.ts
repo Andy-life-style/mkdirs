@@ -68,6 +68,25 @@ export type Geopoint = {
   alt?: number;
 };
 
+export type MediaTag = {
+  _id: string;
+  _type: "media.tag";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  name?: Slug;
+};
+
+export type Code = {
+  _type: "code";
+  language?: string;
+  filename?: string;
+  code?: string;
+  highlightedLines?: Array<number>;
+};
+
+export type Markdown = string;
+
 export type BlockContent = Array<{
   children?: Array<{
     marks?: Array<string>;
@@ -311,7 +330,7 @@ export type Item = {
     _weak?: boolean;
     [internalGroqTypeReferenceTo]?: "user";
   };
-  introduction?: string;
+  introduction?: Markdown;
   icon?: {
     asset?: {
       _ref: string;
@@ -378,6 +397,89 @@ export type Order = {
   date?: string;
 };
 
+export type User = {
+  _id: string;
+  _type: "user";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  name?: string;
+  email?: string;
+  emailVerified?: string;
+  image?: string;
+  link?: string;
+  password?: string;
+  role?: "ADMIN" | "USER";
+  accounts?: {
+    _ref: string;
+    _type: "reference";
+    _weak?: boolean;
+    [internalGroqTypeReferenceTo]?: "account";
+  };
+  stripeCustomerId?: string;
+};
+
+export type Account = {
+  _id: string;
+  _type: "account";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  userId?: string;
+  type?: string;
+  provider?: string;
+  providerAccountId?: string;
+  refreshToken?: string;
+  accessToken?: string;
+  expiresAt?: number;
+  tokenType?: string;
+  scope?: string;
+  idToken?: string;
+  sessionState?: string;
+  user?: {
+    _ref: string;
+    _type: "reference";
+    _weak?: boolean;
+    [internalGroqTypeReferenceTo]?: "user";
+  };
+};
+
+export type Slug = {
+  _type: "slug";
+  current?: string;
+  source?: string;
+};
+
+export type ReplicaPage = {
+  _id: string;
+  _type: "replicaPage";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  route?: string;
+  title?: string;
+  heading?: string;
+  description?: string;
+  pageType?: string;
+  sourceUrl?: string;
+  capturedAt?: string;
+  text?: string;
+  html?: string;
+  imagePaths?: Array<string>;
+  imageAssets?: Array<{
+    asset?: {
+      _ref: string;
+      _type: "reference";
+      _weak?: boolean;
+      [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+    };
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    _type: "image";
+    _key: string;
+  }>;
+};
+
 export type SanityImageCrop = {
   _type: "sanity.imageCrop";
   top?: number;
@@ -435,79 +537,7 @@ export type SanityImageMetadata = {
   isOpaque?: boolean;
 };
 
-export type User = {
-  _id: string;
-  _type: "user";
-  _createdAt: string;
-  _updatedAt: string;
-  _rev: string;
-  name?: string;
-  email?: string;
-  emailVerified?: string;
-  image?: string;
-  link?: string;
-  password?: string;
-  role?: "ADMIN" | "USER";
-  accounts?: {
-    _ref: string;
-    _type: "reference";
-    _weak?: boolean;
-    [internalGroqTypeReferenceTo]?: "account";
-  };
-  stripeCustomerId?: string;
-};
-
-export type Account = {
-  _id: string;
-  _type: "account";
-  _createdAt: string;
-  _updatedAt: string;
-  _rev: string;
-  userId?: string;
-  type?: string;
-  provider?: string;
-  providerAccountId?: string;
-  refreshToken?: string;
-  accessToken?: string;
-  expiresAt?: number;
-  tokenType?: string;
-  scope?: string;
-  idToken?: string;
-  sessionState?: string;
-  user?: {
-    _ref: string;
-    _type: "reference";
-    _weak?: boolean;
-    [internalGroqTypeReferenceTo]?: "user";
-  };
-};
-
-export type Code = {
-  _type: "code";
-  language?: string;
-  filename?: string;
-  code?: string;
-  highlightedLines?: Array<number>;
-};
-
-export type Markdown = string;
-
-export type MediaTag = {
-  _id: string;
-  _type: "media.tag";
-  _createdAt: string;
-  _updatedAt: string;
-  _rev: string;
-  name?: Slug;
-};
-
-export type Slug = {
-  _type: "slug";
-  current?: string;
-  source?: string;
-};
-
-export type AllSanitySchemaTypes = SanityImagePaletteSwatch | SanityImagePalette | SanityImageDimensions | SanityFileAsset | Geopoint | BlockContent | Settings | PasswordResetToken | VerificationToken | Page | BlogCategory | BlogPost | Collection | Category | Group | Tag | Item | Order | SanityImageCrop | SanityImageHotspot | SanityImageAsset | SanityAssetSourceData | SanityImageMetadata | User | Account | Code | Markdown | MediaTag | Slug;
+export type AllSanitySchemaTypes = SanityImagePaletteSwatch | SanityImagePalette | SanityImageDimensions | SanityFileAsset | Geopoint | MediaTag | Code | Markdown | BlockContent | Settings | PasswordResetToken | VerificationToken | Page | BlogCategory | BlogPost | Collection | Category | Group | Tag | Item | Order | User | Account | Slug | ReplicaPage | SanityImageCrop | SanityImageHotspot | SanityImageAsset | SanityAssetSourceData | SanityImageMetadata;
 export declare const internalGroqTypeReferenceTo: unique symbol;
 // Source: src/sanity/lib/queries.ts
 // Variable: itemByIdQuery
@@ -893,12 +923,12 @@ export type ItemFullInfoByIdQueryResult = {
     slug?: Slug;
     description?: string;
   }> | null;
-  introduction: string | null;
+  introduction: Markdown | null;
 } | null;
 // Variable: itemFullInfoBySlugQuery
 // Query: *[_type == "item" && slug.current == $slug && forceHidden != true] [0] {    introduction,  "related": *[_type == "item" && defined(slug.current)     && defined(publishDate)     && forceHidden != true    && sponsor != true    && count(categories[@._ref in ^.^.categories[]._ref]) > 0 && _id != ^._id]     | order(publishedDate desc, _createdAt desc) [0...3] {        _id,  _createdAt,  name,  slug,  description,  link,  affiliateLink,  sponsor,  sponsorStartDate,  sponsorEndDate,  note,  featured,  icon {    ...,    "blurDataURL": asset->metadata.lqip,    "imageColor": asset->metadata.palette.dominant.background,  },  image {    ...,    "blurDataURL": asset->metadata.lqip,    "imageColor": asset->metadata.palette.dominant.background,  },  publishDate,  paid,  order,  pricePlan,  freePlanStatus,  proPlanStatus,  sponsorPlanStatus,  rejectionReason,  submitter->,  collections[]->,  categories[]->,  tags[]->,  },    _id,  _createdAt,  name,  slug,  description,  link,  affiliateLink,  sponsor,  sponsorStartDate,  sponsorEndDate,  note,  featured,  icon {    ...,    "blurDataURL": asset->metadata.lqip,    "imageColor": asset->metadata.palette.dominant.background,  },  image {    ...,    "blurDataURL": asset->metadata.lqip,    "imageColor": asset->metadata.palette.dominant.background,  },  publishDate,  paid,  order,  pricePlan,  freePlanStatus,  proPlanStatus,  sponsorPlanStatus,  rejectionReason,  submitter->,  collections[]->,  categories[]->,  tags[]->,}
 export type ItemFullInfoBySlugQueryResult = {
-  introduction: string | null;
+  introduction: Markdown | null;
   related: Array<{
     _id: string;
     _createdAt: string;

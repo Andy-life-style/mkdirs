@@ -19,6 +19,15 @@ const billingUrl = absoluteUrl("/dashboard");
 export async function openCustomerPortal(
   stripeCustomerId: string,
 ): Promise<ServerActionResponse> {
+  if (
+    process.env.AITOOLFAME_REPLICA !== "false" &&
+    (process.env.REPLICA_CMS_READY !== "true" ||
+      process.env.REPLICA_BUSINESS_ENABLED !== "true")
+  )
+    return {
+      status: "error",
+      message: "Payments are temporarily unavailable.",
+    };
   let redirectUrl = "";
 
   try {

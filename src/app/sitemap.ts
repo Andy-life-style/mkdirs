@@ -1,4 +1,5 @@
 import { COLLECTIONS_PER_PAGE, ITEMS_PER_PAGE } from "@/lib/constants";
+import { getReplicaManifest } from "@/lib/replica";
 import type {
   BlogCategoryListQueryForSitemapResult,
   BlogListQueryForSitemapResult,
@@ -30,6 +31,13 @@ const site_url = process.env.NEXT_PUBLIC_APP_URL;
  * https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  if (process.env.AITOOLFAME_REPLICA !== "false") {
+    if (!site_url) return [];
+    const manifest = await getReplicaManifest();
+    return Object.keys(manifest.pages)
+      .filter((route) => !route.includes("?") && route !== "/search")
+      .map((route) => ({ url: `${site_url}${route}` }));
+  }
   console.log("sitemap start");
 
   const sitemapList: MetadataRoute.Sitemap = []; // final result
@@ -152,7 +160,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
   const pageCount = Math.ceil(itemListQueryResult.length / ITEMS_PER_PAGE);
-  console.log(`sitemap, item count:${itemListQueryResult.length}, pageCount:${pageCount}`);
+  console.log(
+    `sitemap, item count:${itemListQueryResult.length}, pageCount:${pageCount}`,
+  );
   for (let i = 2; i <= pageCount; i++) {
     const routeUrl = `/?page=${i}`;
     sitemapList.push({
@@ -171,7 +181,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       });
 
       const pageCount = Math.ceil(category.count / ITEMS_PER_PAGE);
-      console.log(`sitemap, category:${category.slug}, count:${category.count}, pageCount:${pageCount}`);
+      console.log(
+        `sitemap, category:${category.slug}, count:${category.count}, pageCount:${pageCount}`,
+      );
       for (let i = 2; i <= pageCount; i++) {
         const routeUrl = `/category/${category.slug}?page=${i}`;
         sitemapList.push({
@@ -194,7 +206,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       });
 
       const pageCount = Math.ceil(tag.count / ITEMS_PER_PAGE);
-      console.log(`sitemap, tag:${tag.slug}, count:${tag.count}, pageCount:${pageCount}`);
+      console.log(
+        `sitemap, tag:${tag.slug}, count:${tag.count}, pageCount:${pageCount}`,
+      );
       for (let i = 2; i <= pageCount; i++) {
         const routeUrl = `/tag/${tag.slug}?page=${i}`;
         sitemapList.push({
@@ -217,7 +231,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       });
 
       const pageCount = Math.ceil(collection.count / COLLECTIONS_PER_PAGE);
-      console.log(`sitemap, collection:${collection.slug}, count:${collection.count}, pageCount:${pageCount}`);
+      console.log(
+        `sitemap, collection:${collection.slug}, count:${collection.count}, pageCount:${pageCount}`,
+      );
       for (let i = 2; i <= pageCount; i++) {
         const routeUrl = `/collection/${collection.slug}?page=${i}`;
         sitemapList.push({
@@ -253,7 +269,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       });
 
       const pageCount = Math.ceil(blogCategory.count / ITEMS_PER_PAGE);
-      console.log(`sitemap, blog category:${blogCategory.slug}, count:${blogCategory.count}, pageCount:${pageCount}`);
+      console.log(
+        `sitemap, blog category:${blogCategory.slug}, count:${blogCategory.count}, pageCount:${pageCount}`,
+      );
       for (let i = 2; i <= pageCount; i++) {
         const routeUrl = `/blog/category/${blogCategory.slug}?page=${i}`;
         sitemapList.push({

@@ -1,0 +1,5009 @@
+[
+  {
+    "route": "/item/cursor",
+    "name": "Cursor",
+    "description": "Cursor is an AI-powered code editor designed to boost developer productivity with features like AI agents and codebase understanding.",
+    "categories": [
+      "/category/development",
+      "/category/code",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/professional",
+      "/tag/web",
+      "/tag/mac",
+      "/tag/windows",
+      "/tag/linux"
+    ]
+  },
+  {
+    "route": "/item/hiring-studio",
+    "name": "Hiring Studio",
+    "description": "A free suite of copilots designed to 10x the productivity of recruiting teams by generating job descriptions and interview questions.",
+    "categories": [
+      "/category/business",
+      "/category/productivity",
+      "/category/management"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/image-to-prompt",
+    "name": "Image to Prompt",
+    "description": "Convert images to text prompts instantly and for free, enhancing creativity and streamlining workflows for various AI platforms.",
+    "categories": [
+      "/category/image",
+      "/category/prompt",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/toolsapp-ai-tools-directory",
+    "name": "ToolsApp AI Tools Directory",
+    "description": "ToolsApp AI Directory provides a curated list of AI tools, updated daily, to help users discover the best AI solutions for their needs.",
+    "categories": [
+      "/category/platform",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/open-source"
+    ]
+  },
+  {
+    "route": "/item/incredibox-abgerny",
+    "name": "Incredibox Abgerny",
+    "description": "Create tribal beats with Incredibox Abgerny! Explore Aboriginal vibes and share your unique compositions online.",
+    "categories": [
+      "/category/game",
+      "/category/entertainment",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/browser-extension",
+      "/tag/windows"
+    ]
+  },
+  {
+    "route": "/item/all-in-ai-tools",
+    "name": "All in AI Tools",
+    "description": "Discover the best AI tools of 2025, including AI chatbots, image generators, writing assistants, and more, all in one directory.",
+    "categories": [
+      "/category/platform",
+      "/category/news",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/android",
+      "/tag/ios"
+    ]
+  },
+  {
+    "route": "/item/pokemon-coloring-pages",
+    "name": "Pokemon Coloring Pages",
+    "description": "A website offering a collection of original and unique Pokemon coloring pages for fans of all ages to download and print for free.",
+    "categories": [
+      "/category/entertainment",
+      "/category/education",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/windows",
+      "/tag/mac"
+    ]
+  },
+  {
+    "route": "/item/notegpt",
+    "name": "NoteGPT",
+    "description": "AI learning assistant that summarizes various content types, generates notes, mind maps, and presentations to boost learning efficiency.",
+    "categories": [
+      "/category/education",
+      "/category/productivity",
+      "/category/research"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/free",
+      "/tag/advanced",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/toolnav",
+    "name": "Toolnav",
+    "description": "Discover high-quality AI tools worldwide, showcasing vertical AI applications and helping users find the best AI solutions.",
+    "categories": [],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/browser-extension",
+      "/tag/windows",
+      "/tag/mac"
+    ]
+  },
+  {
+    "route": "/item/sprunky-incredibox",
+    "name": "Sprunky Incredibox",
+    "description": "Create unique Sprunky beats with quirky characters in this online music creation game inspired by Incredibox.",
+    "categories": [
+      "/category/game",
+      "/category/entertainment",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/windows",
+      "/tag/mac"
+    ]
+  },
+  {
+    "route": "/item/tempmail100",
+    "name": "TempMail100",
+    "description": "Generate a free, secure, and anonymous temporary email address to protect your privacy and avoid spam effortlessly.",
+    "categories": [
+      "/category/daily-life",
+      "/category/productivity",
+      "/category/community"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/premium",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/ai-tools-agents-directory",
+    "name": "AI Tools & Agents Directory",
+    "description": "Discover AI tools and agents across categories like content creation, marketing, and software development to boost productivity.",
+    "categories": [
+      "/category/business",
+      "/category/development"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/unwatermark-ai",
+    "name": "Unwatermark AI",
+    "description": "AI-powered tool to remove watermarks from photos and videos online for free, without sign-up, ensuring watermark-free content.",
+    "categories": [
+      "/category/image",
+      "/category/video",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/ios",
+      "/tag/android",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/jsonhome",
+    "name": "JSONHome",
+    "description": "JSONHome offers online tools to format, validate, and compare JSON, along with utilities for timestamp conversion and JSON to CSV conversion.",
+    "categories": [
+      "/category/development",
+      "/category/analysis",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/browser-extension",
+      "/tag/beginner",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/yahini",
+    "name": "Yahini",
+    "description": "AI-powered content strategy platform that learns your business to deliver keyword strategies and content briefs.",
+    "categories": [
+      "/category/marketing",
+      "/category/business",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/ai-text-to-music",
+    "name": "AI Text To Music",
+    "description": "Effortlessly turn your text and lyrics into captivating music with AI Song Maker, offering both simple and custom modes.",
+    "categories": [
+      "/category/audio",
+      "/category/entertainment",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/premium",
+      "/tag/advanced",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/snapvideotools",
+    "name": "SnapVideoTools",
+    "description": "Download Douyin(Chinese Tiktok) videos without watermarks for free; supports MP4 and MP3 formats, no registration or software needed.",
+    "categories": [
+      "/category/entertainment",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/android",
+      "/tag/ios"
+    ]
+  },
+  {
+    "route": "/item/twitterandx",
+    "name": "TwitterAndX",
+    "description": "TwitterAndX.com is a free online tool for quickly downloading Twitter (X) videos in high-quality and watermark-free formats without registration.",
+    "categories": [
+      "/category/video",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/browser-extension",
+      "/tag/android",
+      "/tag/ios"
+    ]
+  },
+  {
+    "route": "/item/newaiforyou",
+    "name": "NewAIForYou",
+    "description": "Explore top AI tools updated daily at NewAIForYou.com, a curated directory offering the latest in AI with expert insights.",
+    "categories": [
+      "/category/platform",
+      "/category/analysis",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/findjsonpath",
+    "name": "FindJSONPath",
+    "description": "FindJSONPath is a free online tool to analyze and extract JSON Paths easily with an intuitive interface and interactive path selection.",
+    "categories": [
+      "/category/development",
+      "/category/analysis",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/ai-haiku-generator",
+    "name": "AI Haiku Generator",
+    "description": "Generate stunning 5-7-5 Japanese poems online for free with this AI-powered haiku maker; no login required.",
+    "categories": [
+      "/category/writing",
+      "/category/entertainment",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/browser-extension",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/schedviral",
+    "name": "SchedViral",
+    "description": "SchedViral is a social media management tool that allows users to create, schedule, and post content across multiple platforms.",
+    "categories": [
+      "/category/marketing",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/premium",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/try-it-on-ai",
+    "name": "Try it on AI",
+    "description": "AI headshot generator and AI editing tools to create professional studio-quality headshots and portraits for individuals and teams.",
+    "categories": [
+      "/category/image",
+      "/category/marketing",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/professional",
+      "/tag/premium",
+      "/tag/web",
+      "/tag/paid",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/web-bulk-translator",
+    "name": "Web Bulk Translator",
+    "description": "Translate text to multiple languages simultaneously, streamlining global communication for businesses and individuals with diverse audiences.",
+    "categories": [
+      "/category/translation",
+      "/category/business",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/digitalmarketings",
+    "name": "DigitalMarketings",
+    "description": "Curated directory of top digital marketing tools to drive product growth and maximize business impact.",
+    "categories": [
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/open-source",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/dosomegaming",
+    "name": "DoSomeGaming",
+    "description": "DoSomeGaming offers a wide variety of free online games playable directly in your browser, with no downloads required.",
+    "categories": [
+      "/category/game",
+      "/category/entertainment",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/windows"
+    ]
+  },
+  {
+    "route": "/item/ai-baby-generator",
+    "name": "AI Baby Generator",
+    "description": "AI Baby Generator predicts your future baby's face using advanced AI, delivering realistic baby photos in seconds.",
+    "categories": [
+      "/category/entertainment",
+      "/category/image",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/android",
+      "/tag/ios"
+    ]
+  },
+  {
+    "route": "/item/minimax",
+    "name": "MiniMax",
+    "description": "MiniMax is building AGI with multi-modal models and AI-native products, serving over 150 million users globally.",
+    "categories": [
+      "/category/research",
+      "/category/platform",
+      "/category/development"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/advanced",
+      "/tag/premium",
+      "/tag/open-source"
+    ]
+  },
+  {
+    "route": "/item/transmonkey",
+    "name": "Transmonkey",
+    "description": "AI-powered translation for documents, images, audio, and video, supporting 130+ languages and various file formats with layout preservation.",
+    "categories": [
+      "/category/translation",
+      "/category/business",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/premium",
+      "/tag/free",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/doculator",
+    "name": "Doculator",
+    "description": "Doculator is an AI-powered platform offering document, image, and video translation services with format retention and lip-sync capabilities.",
+    "categories": [
+      "/category/translation",
+      "/category/image",
+      "/category/video"
+    ],
+    "tags": [
+      "/tag/professional",
+      "/tag/web",
+      "/tag/free",
+      "/tag/advanced",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/minitale",
+    "name": "Minitale",
+    "description": "Minitale offers personalized bedtime stories, allowing parents and kids to create unique, interactive reading experiences in minutes.",
+    "categories": [
+      "/category/education",
+      "/category/entertainment",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/ios",
+      "/tag/android",
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/coloringmaker",
+    "name": "ColoringMaker",
+    "description": "AI-powered tool to generate custom coloring pages from text prompts, ideal for kids, teachers, and coloring enthusiasts.",
+    "categories": [
+      "/category/image",
+      "/category/entertainment",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/beginner",
+      "/tag/paid",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/mochi-1",
+    "name": "Mochi 1",
+    "description": "Mochi 1 by Genmo is an AI video generator that creates high-resolution videos from text prompts, ideal for content creators and marketers.",
+    "categories": [
+      "/category/video",
+      "/category/marketing",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/open-source",
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/cantian-ai",
+    "name": "Cantian AI",
+    "description": "Cantian AI offers free AI fortune telling and BaZi Calculator, combining eastern astrology with AI for destiny insights.",
+    "categories": [
+      "/category/analysis",
+      "/category/chatbot",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/premium",
+      "/tag/advanced",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/destiny-matrix",
+    "name": "Destiny Matrix",
+    "description": "Calculate your destiny matrix for free and gain personalized insights into your life path, relationships, and career potential.",
+    "categories": [
+      "/category/daily-life",
+      "/category/analysis",
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/premium",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/saasfame",
+    "name": "SaasFame",
+    "description": "SaaSFame.com is a curated directory of SaaS products, helping users discover the best SaaS products while giving founders a platform to showcase their software.",
+    "categories": [
+      "/category/productivity",
+      "/category/marketing",
+      "/category/management"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/workfastai",
+    "name": "Workfast.ai",
+    "description": "Workfast.ai is an intelligent project and task management app designed to enhance team collaboration and productivity.",
+    "categories": [
+      "/category/business",
+      "/category/management",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/professional",
+      "/tag/beginner",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/apply-hero-ai",
+    "name": "Apply Hero AI",
+    "description": "Apply Hero AI automates job applications with AI-driven resume and cover letter tailoring, saving time and increasing interview chances.",
+    "categories": [
+      "/category/business",
+      "/category/productivity",
+      "/category/development"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/templatefame",
+    "name": "TemplateFame",
+    "description": "TemplateFame is a curated directory of high-quality templates for creators and startups to build and launch faster.",
+    "categories": [
+      "/category/design",
+      "/category/development",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/premium",
+      "/tag/open-source",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/latency-test",
+    "name": "Latency Test",
+    "description": "Measure website and API latency, monitor uptime, and gain insights into application performance with detailed reports. Ensure optimal user experience.",
+    "categories": [
+      "/category/development",
+      "/category/analysis",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/advanced",
+      "/tag/premium",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/scisummary",
+    "name": "SciSummary",
+    "description": "AI tool designed for researchers and students, SciSummary summarizes scientific articles and research papers with domain-specific accuracy.",
+    "categories": [
+      "/category/research",
+      "/category/education",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/free",
+      "/tag/premium",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/vizologi",
+    "name": "Vizologi",
+    "description": "Vizologi is an AI-powered business plan generator that helps users brainstorm ideas, gain market insights, and automate business plan creation.",
+    "categories": [
+      "/category/business",
+      "/category/marketing",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/advanced",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/linkdirs",
+    "name": "LinkDirs",
+    "description": "Discover leading AI tools for your projects. Join our community to stay updated with the latest in AI technology and resources.",
+    "categories": [
+      "/category/business",
+      "/category/productivity",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/beginner",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/supershorts",
+    "name": "SuperShorts",
+    "description": "SuperShorts offers insights into phone numbers, revealing potential associations with services or individuals. It helps identify unknown callers.",
+    "categories": [
+      "/category/community",
+      "/category/daily-life",
+      "/category/news"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/android",
+      "/tag/ios",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/aicut",
+    "name": "aicut",
+    "description": "Create AI-generated videos for faceless YouTube, TikTok, or Instagram channels. Enhance growth and engagement with captivating AI content.",
+    "categories": [
+      "/category/video",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/ai-logo-maker",
+    "name": "AI Logo Maker",
+    "description": "Logomakeria's AI Logo Maker generates professional logos in seconds. Customize styles, colors, and company names for unique branding solutions.",
+    "categories": [
+      "/category/business",
+      "/category/design",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/cast-swapper",
+    "name": "Cast Swapper",
+    "description": "Find your movie & TV show character look-alike with AI! Upload a photo for face match and free AI face swap online. Discover your doppelganger!",
+    "categories": [
+      "/category/entertainment",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/rmbg-ai",
+    "name": "RMBG AI",
+    "description": "RMBG V2.0 AI is a free online tool using advanced AI to remove image backgrounds instantly. It's fast, accurate, and requires no signup.",
+    "categories": [
+      "/category/image",
+      "/category/productivity",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/browser-extension",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/zupitu",
+    "name": "Zupitu",
+    "description": "Zupitu is an AI-powered email verification and finder tool designed for B2B and B2C, offering free credits to new users. It enhances email marketing ROI.",
+    "categories": [
+      "/category/marketing",
+      "/category/business",
+      "/category/sales"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/premium",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/plagicure",
+    "name": "Plagicure",
+    "description": "Bypass plagiarism and AI detection with Plagicure. Humanize your content effortlessly and remove plagiarism. Try Plagicure today!",
+    "categories": [
+      "/category/writing",
+      "/category/education",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/advanced",
+      "/tag/paid",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/fotogramai",
+    "name": "fotogram.ai",
+    "description": "Fotogram.ai is an AI-powered social media platform that allows users to generate personalized images, explore creative scenarios, and share them.",
+    "categories": [
+      "/category/image",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/premium",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/tailride",
+    "name": "Tailride",
+    "description": "AI-powered invoice and receipt automation software that extracts data from emails and online portals, saving time and improving accuracy.",
+    "categories": [
+      "/category/business",
+      "/category/office",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/top4-ai-tools",
+    "name": "Top4 AI Tools",
+    "description": "MaoMaoYu Top 4 AI Tools is a directory and search engine, offering a curated list of top AI tools across categories. Discover and compare AI solutions.",
+    "categories": [
+      "/category/platform",
+      "/category/research",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/notion-faces",
+    "name": "Notion Faces",
+    "description": "Create minimalist avatars perfectly suited for Notion workspaces. Customize faces with various styles and download in PNG and SVG formats. Free and easy!",
+    "categories": [
+      "/category/design",
+      "/category/productivity",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/professional",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/ai-music-generatorme",
+    "name": "AI Music Generator.me",
+    "description": "AI Music Generator.me offers a platform to effortlessly create unique, high-quality music using advanced AI technology at a cheaper price.",
+    "categories": [
+      "/category/audio",
+      "/category/entertainment",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/vidgo-ai",
+    "name": "Vidgo AI",
+    "description": "Vidgo AI is an all-in-one AI platform that generates videos and images from text and images, offering diverse AI models and effects.",
+    "categories": [
+      "/category/video",
+      "/category/image",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/premium",
+      "/tag/advanced",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/muzix",
+    "name": "Muzix",
+    "description": "Muzix is an AI music generator that transforms text into custom songs and instrumental tracks, requiring no musical expertise. Create unique music effortlessly.",
+    "categories": [
+      "/category/audio",
+      "/category/entertainment",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/premium",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/wuiai",
+    "name": "WUI.AI",
+    "description": "WUI.AI transforms ideas into viral video clips using AI, streamlining video creation for social media and content repurposing.",
+    "categories": [
+      "/category/video",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/premium",
+      "/tag/advanced",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/headshotphotoio",
+    "name": "HeadshotPhoto.io",
+    "description": "HeadshotPhoto.io is an AI headshot generator that creates professional-quality headshots from selfies in minutes. Ideal for LinkedIn and resumes.",
+    "categories": [
+      "/category/business",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/professional",
+      "/tag/web",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/nectar-ai",
+    "name": "Nectar AI",
+    "description": "Nectar AI lets you create your own AI companion, including AI girlfriends and boyfriends. Chat and generate images with your personalized AI friend.",
+    "categories": [
+      "/category/chatbot",
+      "/category/entertainment",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/premium",
+      "/tag/beginner",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/engagefast",
+    "name": "EngageFast",
+    "description": "EngageFast is an AI-powered Chrome extension that helps you create engaging LinkedIn comments, saving time and boosting visibility.",
+    "categories": [
+      "/category/marketing",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/browser-extension",
+      "/tag/professional",
+      "/tag/web",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/celebrity-look-alike",
+    "name": "Celebrity Look Alike",
+    "description": "Find your celebrity twin using AI! This tool analyzes facial features to match you with a celebrity doppelganger. It's fun, free, and private.",
+    "categories": [
+      "/category/entertainment",
+      "/category/daily-life",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/beginner",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/gleemo",
+    "name": "Gleemo",
+    "description": "Gleemo is an AI-powered influencer marketing platform that helps you find, analyze, manage, and connect with influencers. Grow smarter today!",
+    "categories": [
+      "/category/marketing",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/advanced",
+      "/tag/browser-extension",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/sketch-to",
+    "name": "Sketch To",
+    "description": "Sketch To is an AI-powered tool that converts images to sketches and vice versa. It offers both free and professional models for diverse creative needs.",
+    "categories": [
+      "/category/image",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/premium",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/digimon-story-time-stranger-walkthrough",
+    "name": "Digimon Story Time Stranger Walkthrough",
+    "description": "Comprehensive walkthrough and guide for Digimon Story Time Stranger, covering all levels, Digimon lists, videos, and downloads. Explore the game!",
+    "categories": [
+      "/category/game",
+      "/category/entertainment",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/windows"
+    ]
+  },
+  {
+    "route": "/item/enception",
+    "name": "Enception",
+    "description": "Enception is a GEO platform that automates and optimizes marketing for AI search, enhancing brand visibility across platforms like ChatGPT and Google.",
+    "categories": [
+      "/category/marketing",
+      "/category/platform",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/voiceslab",
+    "name": "Voiceslab",
+    "description": "Voiceslab offers AI voice cloning to create natural-sounding speech from text, preserving tone and accent for videos and podcasts. Free to use instantly.",
+    "categories": [
+      "/category/audio",
+      "/category/platform",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/circle-crop",
+    "name": "Circle Crop",
+    "description": "Free online tool to crop images into perfect circles for avatars, profile pictures, and more. Offers precision control and high-quality results.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/beginner",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/ai-song-generator",
+    "name": "AI Song Generator",
+    "description": "Create custom songs and music effortlessly with AI. Generate professional-grade music in seconds, no credit card needed. Free trial available.",
+    "categories": [
+      "/category/audio",
+      "/category/entertainment",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/nana-banana-ai",
+    "name": "Nana Banana AI",
+    "description": "Advanced AI image editor and generator. Create stunning visuals with natural language understanding and character consistency. Perfect for diverse applications.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/advanced",
+      "/tag/premium",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/outsoci",
+    "name": "Outsoci",
+    "description": "Outsoci is a lead generation tool that scrapes emails from social media and Google Maps, offering legal, compliant lead generation.",
+    "categories": [
+      "/category/marketing",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/advanced",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/ai-directories",
+    "name": "AI Directories",
+    "description": "Launch your AI product to 100+ directories. Boost SEO with valuable backlinks and increase domain authority. Get started now!",
+    "categories": [
+      "/category/marketing",
+      "/category/business",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/free",
+      "/tag/premium",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/meme-insider",
+    "name": "Meme Insider",
+    "description": "Discover trending memes and internet culture with Meme Insider. Get exclusive insights into viral phenomena and creative meme communities.",
+    "categories": [
+      "/category/community",
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/android",
+      "/tag/ios"
+    ]
+  },
+  {
+    "route": "/item/videotranslator",
+    "name": "VideoTranslator",
+    "description": "AI-powered platform offering video, document, and image translation with high accuracy and format preservation. Ideal for global content.",
+    "categories": [
+      "/category/translation",
+      "/category/education",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/professional",
+      "/tag/web",
+      "/tag/premium",
+      "/tag/advanced",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/ponder-ai",
+    "name": "Ponder AI",
+    "description": "Ponder AI is a knowledge workspace leveraging AI to help users explore, connect, and evolve their thinking with structured knowledge.",
+    "categories": [
+      "/category/research",
+      "/category/analysis",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/picoolai",
+    "name": "Picool.ai",
+    "description": "Picool.ai is an all-in-one AI image processing website offering powerful online tools for editing, generating, and enhancing images.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/contract-aura",
+    "name": "Contract Aura",
+    "description": "Contract Aura is an AI-powered platform that generates professional legal and business documents. Sign up free and get 1 credit instantly.",
+    "categories": [
+      "/category/business",
+      "/category/writing",
+      "/category/office"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/professional",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/picarta",
+    "name": "Picarta",
+    "description": "Picarta uses AI to predict the GPS location of a photo. Upload an image to find out where it was taken, leveraging advanced AI algorithms.",
+    "categories": [
+      "/category/image",
+      "/category/analysis",
+      "/category/research"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/advanced",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/aura",
+    "name": "Aura++",
+    "description": "Launch your product effortlessly and boost your online presence with Aura++. Get featured, earn badges, and receive high-quality backlinks.",
+    "categories": [
+      "/category/marketing",
+      "/category/business",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/premium",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/bizplanner-ai",
+    "name": "BizPlanner AI",
+    "description": "BizPlanner AI is an AI-powered business plan generator that creates comprehensive, investor-ready plans in minutes, saving time and money.",
+    "categories": [
+      "/category/business",
+      "/category/writing",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/beginner",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/nanthai",
+    "name": "NanthAI",
+    "description": "NanthAI is a multi-model AI platform that allows users to compare responses from ChatGPT, Claude, and Gemini side-by-side, offering access to 90+ AI models.",
+    "categories": [
+      "/category/platform",
+      "/category/chatbot",
+      "/category/research"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/premium",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/hole-people",
+    "name": "Hole People",
+    "description": "Comprehensive guide and walkthrough for Hole People levels 1-774, offering video tutorials and strategies to solve puzzles effectively. Get unstuck now!",
+    "categories": [
+      "/category/game",
+      "/category/entertainment",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/android",
+      "/tag/ios",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/suno-top",
+    "name": "Suno-Top",
+    "description": "Suno-Top is a free and fast online service for downloading AI-generated music from Suno, offering MP3s, lyrics, and song insights.",
+    "categories": [
+      "/category/audio",
+      "/category/entertainment",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/windows",
+      "/tag/mac"
+    ]
+  },
+  {
+    "route": "/item/gentube",
+    "name": "GenTube",
+    "description": "GenTube is a free AI art generator that allows users to create unlimited AI images from text prompts in seconds.",
+    "categories": [
+      "/category/image",
+      "/category/entertainment",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/android",
+      "/tag/ios"
+    ]
+  },
+  {
+    "route": "/item/aimage-ai",
+    "name": "Aimage AI",
+    "description": "Aimage AI transforms text and images into AI artwork. Create unique AI images with advanced AI image generation technology for free.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/ai-manga-translator",
+    "name": "AI Manga Translator",
+    "description": "Translate manga instantly with AI Manga Translator! Supports multiple languages and translation engines, preserving original artwork. Fast and accurate!",
+    "categories": [
+      "/category/translation",
+      "/category/entertainment",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/free",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/llemental",
+    "name": "LLeMental",
+    "description": "LLeMental is an AI presentation maker that automates content creation from existing templates, preserving branding and structure. It streamlines workflows.",
+    "categories": [
+      "/category/business",
+      "/category/marketing",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/kvitly",
+    "name": "kvitly",
+    "description": "kvitly is an AI-powered platform designed for solopreneurs and small businesses, offering tools for website building, marketing, and CRM.",
+    "categories": [
+      "/category/business",
+      "/category/platform",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/aihuntlist",
+    "name": "AIHuntList",
+    "description": "Discover top AI tools, products, and apps. Explore AI solutions, tutorials, news, and creative uses to boost productivity and innovation.",
+    "categories": [
+      "/category/business",
+      "/category/education",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/android",
+      "/tag/ios",
+      "/tag/linux"
+    ]
+  },
+  {
+    "route": "/item/transcript-generator",
+    "name": "Transcript Generator",
+    "description": "Instantly extract YouTube transcripts. Get accurate subtitles, summarize videos, chat with AI, and translate captions effortlessly. Try it free!",
+    "categories": [
+      "/category/education",
+      "/category/productivity",
+      "/category/research"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/browser-extension",
+      "/tag/premium",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/imagetoblackandwhite",
+    "name": "ImageToBlackAndWhite",
+    "description": "Instantly convert color photos to black and white with this free online tool. Achieve professional quality monochrome images effortlessly.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/professional",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/ecomdesignlab",
+    "name": "EcomDesignLab",
+    "description": "EcomDesignLab transforms product photos with AI, creating professional fashion shoots that drive clicks and boost e-commerce sales.",
+    "categories": [
+      "/category/marketing",
+      "/category/image",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/premium",
+      "/tag/advanced",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/imagetoany",
+    "name": "ImageToAny",
+    "description": "ImageToAny transforms images into detailed AI prompts and various styles, perfect for artists seeking stunning AI artwork. Free to try.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/prompt"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/advanced",
+      "/tag/beginner",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/komikoai",
+    "name": "KomikoAI",
+    "description": "KomikoAI is an AI anime generator that allows users to create comics, manga, and animations using artificial intelligence. It offers various AI-powered tools.",
+    "categories": [
+      "/category/image",
+      "/category/entertainment",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/premium",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/topindiedev",
+    "name": "TopIndie.dev",
+    "description": "A community hub for indie developers to discover, showcase, and explore innovative projects, from apps to open-source tools. Connect and grow!",
+    "categories": [
+      "/category/community",
+      "/category/development",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/open-source",
+      "/tag/android"
+    ]
+  },
+  {
+    "route": "/item/reddit-list",
+    "name": "Reddit List",
+    "description": "Discover quality Reddit communities with this directory. Find and join high-quality subreddits across various categories, tailored to your interests.",
+    "categories": [
+      "/category/community",
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/rankyourai",
+    "name": "RankYourAI",
+    "description": "Discover top AI tools for productivity & efficiency. Streamline workflows, boost growth with our AI Tools Directory. Expert recommendations & rankings.",
+    "categories": [
+      "/category/marketing",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/premium",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/lanta-ai",
+    "name": "Lanta AI",
+    "description": "Lanta AI is an online AI video generator that provides tools for video-to-video, image-to-video, and text-to-video creation. It offers various AI vide...",
+    "categories": [
+      "/category/video",
+      "/category/image",
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/beginner",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/synexa-ai",
+    "name": "Synexa AI",
+    "description": "Synexa AI simplifies AI deployment with a one-line code solution. It offers fast, stable, and developer-friendly AI model execution.",
+    "categories": [
+      "/category/development",
+      "/category/platform",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/advanced",
+      "/tag/paid",
+      "/tag/open-source"
+    ]
+  },
+  {
+    "route": "/item/dangai",
+    "name": "Dang.ai",
+    "description": "Dang.ai is the premier AI tools directory, showcasing 5000+ tools across AI copywriting, image generation, video creation, and more.",
+    "categories": [
+      "/category/business",
+      "/category/productivity",
+      "/category/research"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/android"
+    ]
+  },
+  {
+    "route": "/item/image-to-prompt-tool",
+    "name": "Image to Prompt Tool",
+    "description": "Free online tool to convert images into AI prompts for Midjourney, Stable Diffusion, and Flux. Supports 16 languages and provides instant results.",
+    "categories": [
+      "/category/image",
+      "/category/prompt"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/growth-onomics",
+    "name": "Growth-onomics",
+    "description": "Growth-onomics: AI-powered marketing agency delivering tailored paid media, SEO, and data analytics solutions for EMEA businesses. Drive measurable success.",
+    "categories": [
+      "/category/marketing",
+      "/category/business",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/premium",
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/vidgo-ai-wwwvidgoai",
+    "name": "Vidgo AI",
+    "description": "Vidgo AI is an all-in-one AI image and video generator that turns ideas into magical AI generation, bringing imagination to life. Free trial available.",
+    "categories": [
+      "/category/video",
+      "/category/image",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/premium",
+      "/tag/advanced",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/ai-headshot-generator",
+    "name": "AI Headshot Generator",
+    "description": "Generate professional-quality headshots using AI. Transform selfies into stunning portraits for LinkedIn, websites, and professional profiles in minutes.",
+    "categories": [
+      "/category/image",
+      "/category/marketing",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/professional",
+      "/tag/web",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/go-legal-ai",
+    "name": "Go Legal AI",
+    "description": "Go Legal AI is an all-in-one legal platform offering AI-powered tools, templates, and expert advice to solve legal issues quickly and affordably.",
+    "categories": [
+      "/category/platform",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/professional",
+      "/tag/web",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/tempmailso",
+    "name": "TempMail.so",
+    "description": "TempMail.so provides temporary, anonymous, free and secure disposable email addresses for privacy and spam protection. Sign up anonymously!",
+    "categories": [
+      "/category/daily-life",
+      "/category/productivity",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/premium",
+      "/tag/android"
+    ]
+  },
+  {
+    "route": "/item/aiapply",
+    "name": "AIApply",
+    "description": "AIApply is an AI-powered job search platform that helps job seekers create resumes, cover letters, and practice interviews to get hired faster.",
+    "categories": [
+      "/category/business",
+      "/category/productivity",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/beginner",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/redditcast",
+    "name": "RedditCast",
+    "description": "RedditCast transforms subreddits into daily audio podcasts. Stay updated with top community content through convenient audio episodes.",
+    "categories": [
+      "/category/news",
+      "/category/audio"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/android",
+      "/tag/ios",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/jobsaicopilot",
+    "name": "JobsAICopilot",
+    "description": "Automate job applications with AI. Apply to 50 jobs daily, track progress, and create resumes/cover letters effortlessly. Land more interviews!",
+    "categories": [
+      "/category/business",
+      "/category/platform",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/advanced",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/techsky",
+    "name": "Techsky",
+    "description": "Techsky provides a suite of AI-powered marketing tools for lead generation, email campaigns, SEO optimization, and chatbot solutions, designed to grow...",
+    "categories": [
+      "/category/marketing",
+      "/category/business",
+      "/category/sales"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/nano-banana-pro",
+    "name": "Nano Banana Pro",
+    "description": "Create beautiful images with Nano Banana Pro, a fast and easy AI image generator. Try it free, keep characters consistent, and pick from flexible aspect ratios.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/3d"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/professional",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/firecrawl",
+    "name": "Firecrawl",
+    "description": "The web crawling, scraping, and search API for AI. Built for scale. Firecrawl delivers the entire internet to AI agents and builders. Clean, structure...",
+    "categories": [
+      "/category/development",
+      "/category/platform",
+      "/category/research"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/open-source",
+      "/tag/professional",
+      "/tag/paid",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/photog",
+    "name": "PhotoG",
+    "description": "PhotoG is an AI marketing agent that generates ads, videos, and SEO content from a single image, providing an always-on team for e-commerce success.",
+    "categories": [
+      "/category/marketing",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/repotalent",
+    "name": "Repotalent",
+    "description": "Generate job descriptions and discover top leads directly from your codebase. Streamline your hiring process with AI-powered tools.",
+    "categories": [
+      "/category/business",
+      "/category/development",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/paid",
+      "/tag/open-source",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/ai-age-challenge",
+    "name": "AI Age Challenge",
+    "description": "Challenge your friends to see who looks younger with this AI age estimation tool. Upload a photo, get an instant age detection, and share to compete!",
+    "categories": [
+      "/category/image",
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/customer-feedback",
+    "name": "Customer Feedback",
+    "description": "Capture, organize, and analyze new feature requests in one place, so you know what to build next.",
+    "categories": [
+      "/category/business",
+      "/category/management",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/domain-rank-app",
+    "name": "Domain Rank App",
+    "description": "Analyze domain authority, track rankings, and get actionable SEO insights to boost organic traffic.  ",
+    "categories": [
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/aitoolfame",
+    "name": "AIToolFame",
+    "description": "AIToolFame: Discover top AI tools, showcase your AI creations, and explore curated collections for various applications and needs.",
+    "categories": [
+      "/category/platform",
+      "/category/community",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/premium",
+      "/tag/beginner",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/app-icon-creator-icondino",
+    "name": "App Icon Creator - IconDino",
+    "description": "Stop resizing assets manually. Generate professional iOS & Android app icons in seconds.",
+    "categories": [
+      "/category/image",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/android",
+      "/tag/ios",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/json-to-toon-converter",
+    "name": "JSON to TOON Converter",
+    "description": "Privacy-focused, in-browser JSON to TOON converter without signup. Reduce LLM costs by 30-60% by optimizing token usage.",
+    "categories": [
+      "/category/development",
+      "/category/productivity",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/fast-seo-fix",
+    "name": "Fast SEO Fix",
+    "description": "🚀 Publish optimized Blog Posts on Autopilot\n📈 Improve ranking on Google and ChatGPT\n💰 Increase organic traffic, while saving time and money",
+    "categories": [
+      "/category/business",
+      "/category/writing"
+    ],
+    "tags": [
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/plagiarismremoverai",
+    "name": "PlagiarismRemover.AI",
+    "description": "PlagiarismRemover.AI is an online plagiarism remover designed to help users clean up duplicate or flagged text without breaking structure or meaning.",
+    "categories": [
+      "/category/writing",
+      "/category/productivity",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/habitbook-habit-tracker",
+    "name": "HabitBook - Habit Tracker",
+    "description": "Comprehensive habit tracker with heat map charts, mood monitoring, and journaling. Features flexible streaks, widgets, and offline-first, privacy-focused design",
+    "categories": [
+      "/category/health"
+    ],
+    "tags": [
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/toolvideo",
+    "name": "Tool.Video",
+    "description": "Tool Video is an all-in-one AI video generation toolkit with API support. Create stunning videos using Sora 2, Nano Banana Pro, and more AI video tools.",
+    "categories": [
+      "/category/video",
+      "/category/image",
+      "/category/audio"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/paid",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/text-behind-image",
+    "name": "Text Behind Image",
+    "description": "Add text behind image in seconds, powered by AI. Create stunning designs effortlessly - no signup, instant download.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/suno-aiyin-le-sheng-cheng-qi-songmakerai",
+    "name": "SUNO AI音楽生成器-SongMaker.AI",
+    "description": "Looking for the best AI music generator? Visit SongMakerAI (https://songmakerai.net) to create unique songs from text prompts. ",
+    "categories": [
+      "/category/video",
+      "/category/audio",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/advanced",
+      "/tag/android",
+      "/tag/beginner",
+      "/tag/browser-extension",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/calculatorskit",
+    "name": "CalculatorsKit",
+    "description": "Free online calculators for math, finance, GPA, health, and daily tasks. Accurate tools for students, professionals, and everyday use.",
+    "categories": [
+      "/category/education",
+      "/category/health",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/banana-ai",
+    "name": "Banana AI",
+    "description": "Free AI image and video generation platform. Transform photos, create cinematic videos, apply styles, background removal, and restoration—fast and easy.",
+    "categories": [
+      "/category/image",
+      "/category/video",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/meanings",
+    "name": "MEANINGS",
+    "description": "Discover insightful stories that challenge your perspective. Explore deep analysis of films, TV series, and cultural phenomena.",
+    "categories": [
+      "/category/entertainment",
+      "/category/analysis",
+      "/category/news"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/kirkify-kirkifyaithinkapp",
+    "name": "Kirkify",
+    "description": "Kirkify is the ultimate Charlie Kirk face swap AI tool, transforming any photo into hilarious memes instantly with advanced AI technology.",
+    "categories": [
+      "/category/image",
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/advanced",
+      "/tag/beginner",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/clawdbot-ai",
+    "name": "Clawdbot AI",
+    "description": "Clawdbot AI is an open-source personal AI assistant that runs locally on your devices, ensuring data privacy while automating tasks like web browsing,...",
+    "categories": [
+      "/category/chatbot",
+      "/category/productivity",
+      "/category/development"
+    ],
+    "tags": [
+      "/tag/open-source",
+      "/tag/mac",
+      "/tag/windows",
+      "/tag/linux",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/image-to-image-ai",
+    "name": "Image to Image AI",
+    "description": "Turn existing images into new visuals or create from text with AI. Multiple aspect ratios, 1K–4K resolution, 9+ models. Fast, simple, no install.",
+    "categories": [
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/ai-best",
+    "name": "AI Best",
+    "description": "Create stunning AI images and videos with AI Best. Generate images from text, transform images, edit images, and create videos with 9+ AI models. Fast...",
+    "categories": [
+      "/category/image",
+      "/category/video",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/advanced",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/premium",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/read-pdf-aloud",
+    "name": "Read PDF Aloud",
+    "description": "Read PDF aloud free online with AI voices. Transform any PDF document into natural speech in 142 languages. Works on iPhone, Android, Mac & Windows.",
+    "categories": [
+      "/category/audio",
+      "/category/education",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/android",
+      "/tag/ios",
+      "/tag/windows"
+    ]
+  },
+  {
+    "route": "/item/caricature",
+    "name": "Caricature",
+    "description": "Caricature AI: Upload a photo, get a funny exaggerated portrait. Free trial, no signup. Share on TikTok, Reddit, X, Facebook.",
+    "categories": [
+      "/category/image",
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/create-a-caricature-of-me",
+    "name": "Create a Caricature of Me",
+    "description": "Turn your photos into personalized caricatures with AI. Upload, choose a style, and get unique caricature art in seconds—no drawing skills required.",
+    "categories": [
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/nano-banana-pro-nanobananaprolive",
+    "name": "Nano Banana Pro",
+    "description": "Create stunning AI images instantly! Powered by Google DeepMind. Generate from text or transform images. Try free now!",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/development"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/advanced",
+      "/tag/professional",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/seedance-art",
+    "name": "Seedance Art",
+    "description": "Create cinematic videos with perfectly synchronized audio using Seedance 1.5 Pro and the upcoming Seedance 2.0, powered by ByteDance.",
+    "categories": [
+      "/category/video",
+      "/category/audio",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/free",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/makemyoc",
+    "name": "MakeMyOC",
+    "description": "Create your own anime character in seconds — just describe it, and AI does the rest. Try MakeMyOC for free: https://www.makemyoc.com",
+    "categories": [
+      "/category/image",
+      "/category/video"
+    ],
+    "tags": [
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/berrioo",
+    "name": "Berrioo",
+    "description": "Berrioo makes it easy to create stunning images with AI. Generate photos, remove backgrounds, enhance quality, and transform your pictures instantly —...",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/professional",
+      "/tag/paid",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/autoapplier",
+    "name": "AutoApplier",
+    "description": "Streamline your job search with our AI Job Agent and browser extension or use our AI generators to create tailored application documents instantly.",
+    "categories": [
+      "/category/productivity",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/browser-extension",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/web",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/clawbox",
+    "name": "ClawBox",
+    "description": "Deploy your own private OpenClaw AI agent on WhatsApp or Telegram in 1 minute. Browses the web, sends emails, automates tasks. No code needed.",
+    "categories": [
+      "/category/chatbot",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/indieai",
+    "name": "IndieAI",
+    "description": "Discover the best AI tools built by indie developers. A curated directory of AI SaaS products for developers, designers, and creators.",
+    "categories": [
+      "/category/image",
+      "/category/marketing",
+      "/category/code"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/genppt-ai",
+    "name": "GenPPT AI",
+    "description": "Create professional presentations in minutes with AI. Generate, beautify, and enhance your PPT with intelligent automation.",
+    "categories": [
+      "/category/productivity",
+      "/category/office",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/paid",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/shipgrowth",
+    "name": "ShipGrowth",
+    "description": "Discover and submit top AI tools. Get quality dofollow backlinks, boost SEO rankings, and gain more visibility. Join the ultimate AI tools directory today!",
+    "categories": [
+      "/category/platform",
+      "/category/development",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/premium",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/newtool-rising-star-tools-hub",
+    "name": "NewTool - Rising Star Tools Hub",
+    "description": "NewTool.site is a tool directory & launchpad for new web tools and startups. Submit in minutes, get indexed, and help users discover what you’re building.",
+    "categories": [
+      "/category/productivity",
+      "/category/development"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/shotai-free",
+    "name": "ShotAI - Free",
+    "description": "All-in-one AI image&video creation platform that supports the latest AI models. Creators can efficiently transform their ideas into reality on a single website.",
+    "categories": [
+      "/category/video",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/professional",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/aback-launch",
+    "name": "Aback Launch",
+    "description": "Launch your startup. A curated platform where founders showcase products and build authority with high-DR backlinks, SEO-optimized pages, and real visibility.",
+    "categories": [
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/clawcloud",
+    "name": "ClawCloud",
+    "description": "OpenClaw is a free, open-source AI assistant that lives on your computer — it can see your screen, use your apps, and do real work for you.",
+    "categories": [
+      "/category/chatbot",
+      "/category/daily-life",
+      "/category/management"
+    ],
+    "tags": [
+      "/tag/advanced",
+      "/tag/free",
+      "/tag/open-source"
+    ]
+  },
+  {
+    "route": "/item/ordr",
+    "name": "Ordr",
+    "description": "Ordr is an intelligent AI task manager and planner that turns messy to‑do lists into a clear plan—so you can focus, finish tasks, and keep your day on track.",
+    "categories": [
+      "/category/productivity",
+      "/category/daily-life",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/android",
+      "/tag/ios"
+    ]
+  },
+  {
+    "route": "/item/noteoperator",
+    "name": "NoteOperator",
+    "description": "Write Markdown, share documents with one link, export to PDF, and connect Claude or any AI agent via scoped MCP API keys. Free, no limits.",
+    "categories": [
+      "/category/productivity",
+      "/category/writing",
+      "/category/development"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/chibi-pics",
+    "name": "Chibi Pics",
+    "description": "Chibi.pics is an AI web that converts photos to various styles like Chibi, anime, stickers using 200+ templates. It requires no skills and offers a free plan.",
+    "categories": [
+      "/category/image",
+      "/category/video",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/image-to-prompt-generator",
+    "name": "Image to Prompt Generator",
+    "description": "Convert images to detailed AI prompts for Stable Diffusion and Midjourney. Free image to prompt generator with professional quality results.",
+    "categories": [
+      "/category/image",
+      "/category/prompt",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/sensorhub",
+    "name": "Sensorhub",
+    "description": "Monitor LinkedIn, Reddit, and X. Engage with leads instantly, and get cited by LLMs. The advanced social selling platform that finds high-intent buyer...",
+    "categories": [
+      "/category/sales",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/domer-ai",
+    "name": "Domer AI",
+    "description": "Professional AI-powered creative studio for content creators. Generate images and videos from text descriptions with Domer. Trusted by creators worldwide.",
+    "categories": [
+      "/category/video",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/ai-tool-finder",
+    "name": "Ai Tool Finder",
+    "description": "AI Tool Finder helps you discover, compare, and choose the best AI tools for productivity, marketing, design, coding, and business—all in one easy-to-...",
+    "categories": [
+      "/category/marketing",
+      "/category/productivity",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/termzy-ai",
+    "name": "Termzy AI",
+    "description": "Instantly understand what you’re really agreeing to. Termzy AI gives you clear, concise AI-powered analyses of T&Cs and policies directly in your browser.",
+    "categories": [
+      "/category/analysis",
+      "/category/productivity",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/browser-extension",
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/productfame",
+    "name": "ProductFame",
+    "description": "ProductFame is a product launch platform that helps users discover popular products and helps founders gain real feedback, early traffic, and valuable...",
+    "categories": [
+      "/category/platform",
+      "/category/marketing",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/toolfame",
+    "name": "ToolFame",
+    "description": "ToolFame.com is a curated directory of online tools, helping users discover the best online tools while giving founders a platform to showcase their o...",
+    "categories": [
+      "/category/productivity",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/directoryfame",
+    "name": "DirectoryFame",
+    "description": "DirectoryFame.com is an all-in-one platform that curates the best product launch directories and offers automated submission services to maximize your...",
+    "categories": [
+      "/category/marketing",
+      "/category/business",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/nano-banana-2",
+    "name": "Nano Banana 2",
+    "description": "Use Google Nano Banana 2 online for headshots, product photos, creative visuals, and image edits. Start free and get to a better result faster.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/thawly",
+    "name": "Thawly",
+    "description": "Thawly acts as your interactive starter motor for ADHD. It asks for your energy level, captures anxiety, and uses AI to return ONE frictionless physical action.",
+    "categories": [
+      "/category/daily-life",
+      "/category/health",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/ai-story-writer",
+    "name": "AI Story Writer",
+    "description": "Struggling to write your story? Our AI story writer creates complete stories in minutes. Best AI story writer for novels, short stories & creative wri...",
+    "categories": [
+      "/category/writing",
+      "/category/productivity",
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/ai-wedding-photo-generator",
+    "name": "AI Wedding Photo Generator",
+    "description": "Create stunning AI wedding photos from your selfies in seconds. Multiple romantic styles available – no photoshoot needed. Try it free now!",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/professional",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/video-to-text",
+    "name": "Video to Text",
+    "description": "Transcribe video and audio to text online with support for 99 languages, speaker labels, timestamps, and TXT, CSV, SRT, or VTT export.",
+    "categories": [
+      "/category/video",
+      "/category/audio",
+      "/category/translation"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/submitsaas",
+    "name": "SubmitSaaS",
+    "description": "Increase your SaaS visibility by submitting to 100+ directories. Save time, gain high-quality backlinks, and grow your reach with minimal effort.",
+    "categories": [
+      "/category/business",
+      "/category/marketing",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/chatflowchart",
+    "name": "ChatFlowchart",
+    "description": "ChatFlowchart is an AI diagram generator and flowchart maker that transforms plain English into editable flowcharts, tree diagrams, and ERDs, offering...",
+    "categories": [
+      "/category/development",
+      "/category/productivity",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/banana-ai-bananainet",
+    "name": "Banana AI",
+    "description": "Create AI images by chatting — no prompt engineering needed. Built for e-commerce, creators, and marketers. Start free today.",
+    "categories": [
+      "/category/image",
+      "/category/marketing",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/professional",
+      "/tag/paid",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/c-dance-20",
+    "name": "c dance 2.0",
+    "description": "C Dance ai, built on Seedance 2.0, supports text, image, audio, and video inputs. Multimodal reference/editing and director-level control.",
+    "categories": [
+      "/category/video",
+      "/category/marketing",
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/tarotguide",
+    "name": "TarotGuide",
+    "description": "Interactive tarot + two AI readers (love vs career)；“Yes/No” moments: quick direction when you’re stuck",
+    "categories": [
+      "/category/chatbot"
+    ],
+    "tags": [
+      "/tag/paid",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/happy-horse-happy-horsepro-partners",
+    "name": "Happy Horse",
+    "description": "Happy Horse is an AI video generator that turns ideas, images, and clips into engaging videos with fast and flexible creation.",
+    "categories": [
+      "/category/video",
+      "/category/platform",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/professional",
+      "/tag/paid",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/partners",
+    "name": "Partners",
+    "description": "A manually reviewed partner and resource page for AI video creators, offering curated tools and workflows for the AI video community.",
+    "categories": [
+      "/category/video",
+      "/category/platform",
+      "/category/community"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/professional",
+      "/tag/free",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/tooldiskcom",
+    "name": "ToolDisk.com",
+    "description": "Find and discover AI image generators, video creation tools, productivity apps and SaaS solutions. Curated directory of the best tools for creators & businesses",
+    "categories": [
+      "/category/platform",
+      "/category/business",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/open-source",
+      "/tag/paid",
+      "/tag/premium",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/happyhorse-video-generator",
+    "name": "HappyHorse Video Generator",
+    "description": "Create short AI videos from text prompts or images in your browser. HappyHorseVideo is a browser-based creative workspace for creators, marketers, and...",
+    "categories": [
+      "/category/video",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/pixel-animation",
+    "name": "Pixel Animation",
+    "description": "Create pixel animation, animated spritesheets, and pixel sprite assets from text prompts. Export PNG, GIF, and ZIP for game-ready workflows.",
+    "categories": [
+      "/category/game",
+      "/category/design",
+      "/category/development"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/free",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/reelmuse",
+    "name": "ReelMuse",
+    "description": "ReelMuse is an AI dance video generator that transforms text, photos, and videos into viral dance clips for TikTok, Reels, and social media, offering...",
+    "categories": [
+      "/category/video",
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/professional",
+      "/tag/paid",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/seedance-20-video",
+    "name": "Seedance 2.0 Video",
+    "description": "Transform ideas, photos, and clips into high-impact AI videos with Seedance 2.0. Create consistent stories with native voice and singing, and master c...",
+    "categories": [
+      "/category/video",
+      "/category/entertainment",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/seedance2",
+    "name": "Seedance2",
+    "description": "Seedance 2 is an AI video generator that turns text prompts or reference images into high-fidelity videos with synchronized audio.",
+    "categories": [
+      "/category/video"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/premium",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/quote-image-maker",
+    "name": "Quote Image Maker",
+    "description": "QuoteImageMaker is an AI-powered tool that turns quotes, affirmations, and captions into beautiful shareable images.",
+    "categories": [
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/tarotguide-tarotguidenet",
+    "name": "TarotGuide",
+    "description": "TarotGuide is an interactive tarot reading site that helps you turn a question into a structured, easy-to-understand reading — in seconds.",
+    "categories": [
+      "/category/gpts",
+      "/category/chatbot",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/japanese-names",
+    "name": "Japanese Names",
+    "description": "Explore over 3,000 Japanese names, including boy, girl, and last names, with meanings like fire, moon, and beauty. Features a name generator, A-Z brow...",
+    "categories": [
+      "/category/daily-life",
+      "/category/education",
+      "/category/research"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/ai-cartoon-generator",
+    "name": "AI Cartoon Generator",
+    "description": "Turn photos or prompts into cartoon avatars, characters, and social visuals with our AI cartoon generator. Convert images online with no watermark.",
+    "categories": [
+      "/category/image",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/beginner",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/ai-story-writer-wwwstory-generatornet-ai-story-generator",
+    "name": "AI Story Writer",
+    "description": "Story Generator is an AI-powered writing tool built for creators who want more than random text.",
+    "categories": [
+      "/category/writing"
+    ],
+    "tags": [
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/square-face-generator",
+    "name": "Square Face Generator",
+    "description": "Create cute square face icons online with Square Face Generator. Free anime-style DIY avatar maker with skin, hair, eyes, outfits, and instant PNG export.",
+    "categories": [
+      "/category/design",
+      "/category/image",
+      "/category/community"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/veo4",
+    "name": "Veo4",
+    "description": "AI Video Magic TAGLINE: Create stunning videos with Veo 4 AI. Realistic motion & multi-angle shots. SHORTDESC: Veo 4 AI lets you generate ",
+    "categories": [
+      "/category/video"
+    ],
+    "tags": [
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/linkedin-patches-game",
+    "name": "LinkedIn Patches Game",
+    "description": "Play Patches, a free online logic puzzle game inspired by LinkedIn. Fill dynamic grids with shape-constrained patches. Enjoy unlimited puzzles, daily ...",
+    "categories": [
+      "/category/game",
+      "/category/education",
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/android",
+      "/tag/ios",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/ai-happy-horse",
+    "name": "AI Happy Horse",
+    "description": "Turn prompts, product photos, portraits, and reference frames into AI short video drafts for ads, product pages, social posts, and storyboards.",
+    "categories": [
+      "/category/video",
+      "/category/marketing",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/professional",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/ecom-mediatech",
+    "name": "Ecom Mediatech",
+    "description": "Ecom Mediatech is a professional ecommerce blog offering reliable insights on Shopify apps, Magento, WooCommerce, and WordPress tools.",
+    "categories": [
+      "/category/business",
+      "/category/productivity",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/android",
+      "/tag/free",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/ai-bizname",
+    "name": "AI Bizname",
+    "description": "Generate unique, catchy, and brandable names instantly with the Free AI Business Name Generator. Perfect for startups, brands, domains, and companies.",
+    "categories": [
+      "/category/business",
+      "/category/productivity",
+      "/category/research"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/professional",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/seedance-30",
+    "name": "Seedance 3.0",
+    "description": "4K AI Video TAGLINE: Create Feature-Film Quality Videos. SHORTDESC: Seedance 3.0 AI creates 4K videos from text & images with multi-shot narrative.",
+    "categories": [
+      "/category/video"
+    ],
+    "tags": [
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/originbrief",
+    "name": "OriginBrief",
+    "description": "Your primary-source research, on autopilot. Weekly reports from primary sources — automatically monitored, always cited.",
+    "categories": [
+      "/category/research",
+      "/category/analysis",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/professional",
+      "/tag/paid",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/free-email-verifier-by-craften",
+    "name": "Free Email Verifier by Craften",
+    "description": "Verify emails instantly for free, no signup, no limits, just clean and reliable results.\n",
+    "categories": [
+      "/category/marketing",
+      "/category/business",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/vrchat-avatar-maker",
+    "name": "VRChat Avatar Maker",
+    "description": "Create custom VRChat avatars online from text, images. Generate 3D models, add textures, auto rig, preview results, with our your VRChat avatar workflow.",
+    "categories": [
+      "/category/3d",
+      "/category/design",
+      "/category/game"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/beginner",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/shhrink",
+    "name": "shhr.ink",
+    "description": "Transform long URLs into short, trackable links. Get detailed analytics, and powerful link management tools.",
+    "categories": [
+      "/category/marketing",
+      "/category/analysis",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/professional",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/ai-image-to-video",
+    "name": "AI Image to Video",
+    "description": "Create GPT Image 2 first frames, product visuals, storyboards, and reference images, then animate them into AI videos with Seedance 2.0 or Kling 3.",
+    "categories": [
+      "/category/video",
+      "/category/image",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/launchchair",
+    "name": "LaunchChair",
+    "description": "LaunchChair is the product layer for AI builders, turning messy ideas into scoped MVPs, living specs, and build-ready prompts.",
+    "categories": [
+      "/category/prompt",
+      "/category/code",
+      "/category/development"
+    ],
+    "tags": [
+      "/tag/beginner",
+      "/tag/professional",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/is-ai-sending-me-traffic",
+    "name": "Is AI Sending Me Traffic",
+    "description": "Free AI Traffic Checker - Connect GA4 and instantly see if AI is sending you traffic. See visits from ChatGPT, Perplexity, Gemini and more. Free, private.",
+    "categories": [
+      "/category/analysis",
+      "/category/marketing",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/creepylink",
+    "name": "CreepyLink",
+    "description": "Transform boring URLs into hilariously suspicious-looking links. Perfect for pranking friends, security awareness training, or just having fun.",
+    "categories": [
+      "/category/productivity",
+      "/category/entertainment",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/grid34sync",
+    "name": "Grid34Sync",
+    "description": "Plan your Instagram feed with intention. Free grid preview, grid planner, 9-grid maker, carousel splitter and more — no login, no watermark, 100% private.",
+    "categories": [
+      "/category/image",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/professional",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/happyhorse-ai-video",
+    "name": "HappyHorse AI Video",
+    "description": "Free online AI video generator. Turn text or images into cinematic AI videos. 1080P output, smooth motion, natural characters. Start with 10 free credits.",
+    "categories": [
+      "/category/video"
+    ],
+    "tags": [
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/faceless-video",
+    "name": "Faceless Video",
+    "description": "Generate AI-powered faceless video series for TikTok, YouTube Shorts, and Instagram Reels. Pick a story family and frequency, then let AI create ready...",
+    "categories": [
+      "/category/video",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/aiarttools",
+    "name": "AIArt.Tools",
+    "description": "Discover curated AI tools, latest AI models, category rankings, and practical comparisons across image generation, video, coding, writing, and productivity.",
+    "categories": [
+      "/category/image",
+      "/category/video",
+      "/category/code"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/professional",
+      "/tag/beginner",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/foohat-salon-software",
+    "name": "Foohat Salon Software",
+    "description": "Salon Booking and Management Software for beauty, wellness and fitness businesses.",
+    "categories": [
+      "/category/business",
+      "/category/marketing",
+      "/category/management"
+    ],
+    "tags": [
+      "/tag/advanced",
+      "/tag/android",
+      "/tag/beginner",
+      "/tag/free",
+      "/tag/ios"
+    ]
+  },
+  {
+    "route": "/item/whereisthisplaceio",
+    "name": "WhereIsThisPlace.io",
+    "description": "Upload any photo and let our advanced AI pinpoint its shooting location instantly by analyzing vegetation, landmarks, architecture, and geography.",
+    "categories": [
+      "/category/image",
+      "/category/analysis",
+      "/category/research"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/professional",
+      "/tag/paid",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/seedance-20-ai-video-seedance2aivideoapp",
+    "name": "Seedance 2.0 AI Video",
+    "description": "Generate AI videos with Seedance 2.0 — real human video, @-reference control, native audio sync, and multi-shot storytelling. Free text to video and i...",
+    "categories": [
+      "/category/video",
+      "/category/audio",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/toollisted",
+    "name": "ToolListed",
+    "description": "Discover the best AI tools directory with AI tools list, SEO backlinks, website backlinks, categories and featured tools. Find and submit AI tools today.",
+    "categories": [
+      "/category/platform",
+      "/category/business",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/hairstyle-ai",
+    "name": "Hairstyle AI",
+    "description": "Wondering how you'd look? Upload a photo to try 100+ AI hairstyles in seconds. Free virtual hair makeover for men & women before your next salon visit!",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/advanced",
+      "/tag/professional",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/faceswaply",
+    "name": "FaceSwaply",
+    "description": "Swap faces in photos online with FaceSwaply. Upload a source face and target photo, generate a realistic AI face swap, then preview and download the result.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/free",
+      "/tag/professional",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/seedance-20-seedancestudioorg",
+    "name": "Seedance 2.0",
+    "description": "Seedance 2.0 is a free AI video generator for cinematic 1080p videos from text prompts and images, built for creators and teams.",
+    "categories": [
+      "/category/video",
+      "/category/image",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/beginner",
+      "/tag/free",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/removelayer",
+    "name": "RemoveLayer",
+    "description": "Remove backgrounds, objects, and text with RemoveLayer AI. Create transparent PNG cutouts and clean product photos online.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/zilivo-ai",
+    "name": "Zilivo AI",
+    "description": "Try Zilivo AI for free to create AI images, edit visuals, and generate AI videos with prompts, reference uploads, and production-ready controls.",
+    "categories": [
+      "/category/image",
+      "/category/video",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/animegenerator",
+    "name": "AnimeGenerator",
+    "description": "Generate AI anime images, videos, and comics instantly with powerful AI tools. Create anime-style characters, scenes, animations, and storyboard conte...",
+    "categories": [
+      "/category/image",
+      "/category/video",
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/youtube-thumbnail-downloader",
+    "name": "YouTube Thumbnail Downloader",
+    "description": "AI Ytgrabber is a fast and free YouTube thumbnail downloader that helps you save HD and Full HD video thumbnails instantly without registration or software.",
+    "categories": [
+      "/category/video",
+      "/category/business",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/gemini-watermark-remover",
+    "name": "Gemini Watermark Remover",
+    "description": "Remove Gemini watermarks from AI images in your browser. Free to start, no image uploads, fast PNG/JPG/WEBP watermark removal.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/open-source",
+      "/tag/mac",
+      "/tag/windows"
+    ]
+  },
+  {
+    "route": "/item/animearc",
+    "name": "AnimeArc",
+    "description": "AnimeArc is an AI anime drama generator that helps creators build scripts, characters, storyboards, cover art, and short anime scene videos from one story idea.",
+    "categories": [
+      "/category/video",
+      "/category/image",
+      "/category/3d"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/studyflowtools",
+    "name": "StudyFlow.tools",
+    "description": "StudyFlow.tools is a browser-based platform that combines academic calculators, PDF utilities, and productivity tools for students.",
+    "categories": [
+      "/category/productivity",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/android",
+      "/tag/free",
+      "/tag/ios",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/grok-imagine-ai",
+    "name": "Grok Imagine AI",
+    "description": "Create Grok Imagine AI images and videos from text prompts, references, and uploads for product visuals, ads, social shorts, concepts, and storyboard clips.",
+    "categories": [
+      "/category/image",
+      "/category/video",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/premium",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/sound-decibel-meter-online",
+    "name": "Sound Decibel Meter Online",
+    "description": "Use a free sound decibel meter online for live dB readings, peak, average, calibration, no install, and local audio processing in your browser.",
+    "categories": [
+      "/category/audio",
+      "/category/daily-life",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/android",
+      "/tag/ios"
+    ]
+  },
+  {
+    "route": "/item/aback-tools",
+    "name": "Aback Tools",
+    "description": "Professional-grade free online tools for everyone. Convert files, format content, and streamline your workflow with secure browser-based utilities.",
+    "categories": [
+      "/category/productivity",
+      "/category/development",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/beginner",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/ytskim",
+    "name": "ytskim",
+    "description": "Youtube ai summary and free transcript to help user to Save hours of watch time\n",
+    "categories": [
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/imagineclip",
+    "name": "ImagineClip",
+    "description": "ImagineClip is an AI video generator for personal creativity, playful edits, avatar clips, and shareable social videos made from prompts, images, and effects.",
+    "categories": [
+      "/category/video",
+      "/category/image",
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/premium",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/makegraph",
+    "name": "MakeGraph",
+    "description": "Turn your Excel or CSV data into clear charts in 1 minute. Free online chart maker for quick data visualization.",
+    "categories": [
+      "/category/analysis",
+      "/category/design",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/teleprompter-scrolling-scripts",
+    "name": "Teleprompter-Scrolling Scripts",
+    "description": "Free teleprompter app for iPhone, iPad, and Mac. Paste your script and read it in Prompter mode or record in Camera mode. Local-first and offline-ready.",
+    "categories": [
+      "/category/video",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/ios",
+      "/tag/mac",
+      "/tag/web",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/the-tool-empire",
+    "name": "The Tool Empire",
+    "description": "Powerful tools for developers, designers, writers & students. No login. No server. Runs entirely in your browser.",
+    "categories": [
+      "/category/writing",
+      "/category/productivity",
+      "/category/development"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/professional",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/backlinkguard",
+    "name": "BacklinkGuard",
+    "description": "Track backlinks, monitor Domain Rating, and get instant alerts when links change. Free backlink monitor and DR tracker for any website.",
+    "categories": [
+      "/category/marketing",
+      "/category/analysis",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/playyy-ai",
+    "name": "Playyy AI",
+    "description": "Free AI design platform for brand-consistent marketing visuals. Generate images, create editable campaign assets, remove backgrounds, and enhance photos.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/fig0",
+    "name": "Fig0",
+    "description": "Fig0 is an AI scientific figure platform that transforms any input into publication-ready and editable vector illustrations for research.",
+    "categories": [
+      "/category/research",
+      "/category/education",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/professional",
+      "/tag/paid",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/collectmonial",
+    "name": "CollectMonial",
+    "description": "CollectMonial helps SaaS founders collect video and text testimonials from customers and turn them into social proof that converts.",
+    "categories": [
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/paid",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/resleap-ai",
+    "name": "ResLeap AI",
+    "description": "ResLeap AI enhances, unblurs, and upscales photos, portraits, anime, and product images into sharper high-resolution visuals online.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/shipycorn",
+    "name": "shipycorn",
+    "description": "A launchpad for indie hackers who build stuff on the internet, featuring new projects dropping every Monday for upvoting and discovery.",
+    "categories": [
+      "/category/business",
+      "/category/platform",
+      "/category/community"
+    ],
+    "tags": [
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/aizolo",
+    "name": "Aizolo",
+    "description": "Get the best All-in-One AI Subscription with AiZolo. Compare multiple AI models, use encrypted custom API keys, and save big on AI tool subscriptions.",
+    "categories": [
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/indiefooter",
+    "name": "IndieFooter",
+    "description": "Manage and sync all your website footers, founder profiles, and global offers from one simple dashboard. Install once, add your API key, and update ev...",
+    "categories": [
+      "/category/development",
+      "/category/management",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/mekrio",
+    "name": "Mekrio",
+    "description": "Mekrio helps sellers and makers create AI product photos, launch visuals, landing page images, ad creatives, and reusable marketing graphics.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/pixal3d",
+    "name": "Pixal3D",
+    "description": "Generate pixel-perfect 3D assets from any 2D image in seconds. Open-source image-to-3D model with PBR textures and GLB export. Accepted to SIGGRAPH 2026.",
+    "categories": [
+      "/category/3d"
+    ],
+    "tags": [
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/toontone",
+    "name": "ToonTone",
+    "description": "Play Toon Tone on its official site, a free cartoon color guesser where you match character colors from memory with HSB sliders. This game challenges ...",
+    "categories": [
+      "/category/game",
+      "/category/entertainment",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/android",
+      "/tag/ios"
+    ]
+  },
+  {
+    "route": "/item/vibebot",
+    "name": "VibeBot",
+    "description": "Create powerful Discord bots with AI using VibeBot, the easiest no-code bot maker for moderation, music, leveling, and custom commands. Build and depl...",
+    "categories": [
+      "/category/chatbot",
+      "/category/platform",
+      "/category/community"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/aitoolslisttools",
+    "name": "AiToolsList.Tools",
+    "description": "Browse a curated directory of AI tools, SaaS products, and productivity apps. Discover the best software for writing, automation, chat, images, video,...",
+    "categories": [
+      "/category/productivity",
+      "/category/marketing",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/advanced",
+      "/tag/paid",
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/ai-face-cutout",
+    "name": "AI Face Cutout",
+    "description": "AI-powered face cutout tool with hair-level precision. Upload any photo, get a transparent PNG in under 30 seconds. Batch processing, 2K output, privacy-first.",
+    "categories": [
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/aideckly",
+    "name": "AIDeckly",
+    "description": "Finding AI tools is easy. Finding the RIGHT ONE is hard. Discover useful AI tools, compare alternatives, watch demos, explore product insights, and ma...",
+    "categories": [
+      "/category/business",
+      "/category/marketing",
+      "/category/sales"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/browser-extension",
+      "/tag/professional",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/humanflow-ai-text-cleaner",
+    "name": "HumanFlow AI Text Cleaner",
+    "description": "AI Text Cleaner helps you clean up AI-generated drafts, remove robotic phrasing, and turn rough text into clear, natural copy. Works for articles, ema...",
+    "categories": [
+      "/category/writing",
+      "/category/productivity",
+      "/category/chatbot"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/beginner",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/myseasoncolors",
+    "name": "MySeasonColors",
+    "description": "Discover your ideal color season with this free, quick analysis quiz, identifying which of 16 palettes best suits your skin, hair, and eye coloring.",
+    "categories": [
+      "/category/analysis",
+      "/category/design",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/paid",
+      "/tag/premium",
+      "/tag/web",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/seedance-25-ai-video-generator",
+    "name": "Seedance 2.5 AI Video Generator",
+    "description": "Seedance 2.5 AI video generator for cinematic 4K videos, 30s single-shot output, multimodal references, character consistency, and camera motion control.",
+    "categories": [
+      "/category/video",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/rankfirst",
+    "name": "RankFirst",
+    "description": "RankFirst finds your keywords, writes SEO articles in your brand voice, and auto-publishes them to your CMS daily, so you rank on Google and get cited by AI.",
+    "categories": [
+      "/category/marketing",
+      "/category/writing",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/ainexfinder",
+    "name": "AInexfinder",
+    "description": "Discover, compare, and find the best AI tools for your needs. Curated collection of cutting-edge artificial intelligence solutions.",
+    "categories": [
+      "/category/writing",
+      "/category/image",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/helperx",
+    "name": "HelperX",
+    "description": "Full X/Twitter routine on autopilot: replies, posts, reposts, DMs. Scale to 1,000 organic replies/day. Every day you wait, they grow.",
+    "categories": [
+      "/category/social-media",
+      "/category/productivity",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/aidirhub",
+    "name": "AIDirHub",
+    "description": "Browse 325+ curated AI tools across 15 categories — find the best AI for video, image, coding, marketing and more, or submit your AI tool to get listed free.",
+    "categories": [
+      "/category/platform",
+      "/category/marketing",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/seo-signal",
+    "name": "SEO Signal",
+    "description": "Connect Google Search Console in one click to find SEO growth opportunities. Refresh ranking pages, spot newly gained/lost pages, group by intent, and...",
+    "categories": [
+      "/category/marketing",
+      "/category/analysis",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/list-bulb",
+    "name": "List Bulb",
+    "description": "Discover AI and SaaS product listings—or submit yours for review and a dofollow backlink. Founders and builders use List Bulb as their launch directory.",
+    "categories": [
+      "/category/platform",
+      "/category/marketing",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/open-source"
+    ]
+  },
+  {
+    "route": "/item/roomagic",
+    "name": "Roomagic",
+    "description": "Upload your room, pick a style, and get a render plus an AI design report in seconds.",
+    "categories": [
+      "/category/design",
+      "/category/image",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/hobbit-ai",
+    "name": "Hobbit AI",
+    "description": "Youth Soccer AI tailored for coaches and academies. Hobbit designs sessions, draws drills, shoots player portraits, manages teams, and plans your season.",
+    "categories": [
+      "/category/education",
+      "/category/management",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/molyin",
+    "name": "Molyin",
+    "description": "Molyin is an all-in-one AI creation platform for generating cinematic AI videos, with AI image, music, and voice tools coming soon, all under one credit system.",
+    "categories": [
+      "/category/video",
+      "/category/image",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/professional",
+      "/tag/paid",
+      "/tag/beginner",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/image-to-stl-converter",
+    "name": "Image to STL Converter",
+    "description": "Convert PNG/JPG photos into 3D-printable STL files in under 1 second, free and private. Create logo extrusions, reliefs, lithophanes, and keychains.",
+    "categories": [
+      "/category/image",
+      "/category/3d",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/vimind",
+    "name": "ViMind",
+    "description": "Create AI explainer videos from PDFs, PowerPoint, text, notes, and URLs. ViMind turns existing content into clear visuals with AI voiceover and captions.",
+    "categories": [
+      "/category/video",
+      "/category/education",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/sellerviewai",
+    "name": "Sellerview.ai",
+    "description": "Real-time profit analytics for Amazon sellers. Track true net profit per SKU across fees, ad spend, COGS, and refunds. $15/month.",
+    "categories": [
+      "/category/business",
+      "/category/productivity",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/browser-extension",
+      "/tag/premium",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/geniechef-app",
+    "name": "GenieChef App",
+    "description": "GenieChef is a free AI cooking assistant that generates personalized recipe ideas from ingredients you already have at home. No sign-up. Works in 6 languages.",
+    "categories": [
+      "/category/daily-life",
+      "/category/productivity",
+      "/category/health"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/android",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/startupfree",
+    "name": "StartupFree",
+    "description": "StartupFree is a curated AI tools directory for founders, makers, and builders. Browse 100+ tools across image generation, video, writing, coding, and more.",
+    "categories": [
+      "/category/development"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/open-source",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/wherewastaken",
+    "name": "WhereWasTaken",
+    "description": "WhereWasTaken is an AI image location finder that helps you discover where photos were taken using visual clues.",
+    "categories": [
+      "/category/image",
+      "/category/analysis",
+      "/category/game"
+    ],
+    "tags": [
+      "/tag/premium",
+      "/tag/professional",
+      "/tag/web",
+      "/tag/free",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/photo-into-video-ai-generator",
+    "name": "Photo into Video AI Generator",
+    "description": "Turn any photo into a smooth, cinematic AI video online. Upload an image, direct the motion, choose framing, quality, and duration, then download your clip.",
+    "categories": [
+      "/category/video",
+      "/category/image",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/aion2-kina",
+    "name": "AION2 KINA",
+    "description": "AION2 guides, an interactive map, item database, class comparisons, crafting calculators, daily checklists, and source-labeled updates.",
+    "categories": [
+      "/category/game",
+      "/category/platform",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/beginner",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/noobai-xl",
+    "name": "NoobAI XL",
+    "description": "NoobAI XL is an open-source AI image generator fine-tuned for high-quality anime illustration, Danbooru tag understanding & control.",
+    "categories": [
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/open-source",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/expirel",
+    "name": "Expirel",
+    "description": "Expirel is a free expiry and habit tracker. Track product expiration dates, build daily habits, get smart reminders, and reduce waste.",
+    "categories": [
+      "/category/productivity",
+      "/category/daily-life",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/qwen-image-30",
+    "name": "Qwen Image 3.0",
+    "description": "Use Qwen Image 3.0 to generate content-heavy visuals with readable text, structured layouts, and multilingual design — from a clear brief to a reviewable draft.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/advanced",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/aiqualityhq",
+    "name": "AIQualityHQ",
+    "description": "AIQualityHQ is a free, browser-native suite of AI tools to audit, optimize, and secure prompts locally in under 10ms with absolute data privacy.",
+    "categories": [
+      "/category/development",
+      "/category/productivity",
+      "/category/research"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/animagine-xl",
+    "name": "Animagine XL",
+    "description": "Animagine XL is a popular SDXL model series for anime art. Version 4.0 delivers high-quality anime characters via prompt tags. Free to try at animaginexl.org.",
+    "categories": [
+      "/category/image",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/valtrain",
+    "name": "VALTRAIN",
+    "description": "Free Valorant tracker for ranks, RR, KDA and match history, with VCT schedules, official replays, weapon skins, agents and training guides.",
+    "categories": [
+      "/category/game"
+    ],
+    "tags": [
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/picavo",
+    "name": "Picavo",
+    "description": "AI product photography for ecommerce stores: generate studio-quality product photos for Amazon, Shopify, and Etsy in seconds. Try Picavo free today now.",
+    "categories": [
+      "/category/image",
+      "/category/marketing",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/where-is-this-place-located",
+    "name": "Where Is This Place Located?",
+    "description": "Upload a photo and free AI shows likely places, visual clues, confidence, and a map. No sign-up, up to 2 free analyses a day, 5 a week.",
+    "categories": [
+      "/category/image",
+      "/category/analysis",
+      "/category/research"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/free",
+      "/tag/mac"
+    ]
+  },
+  {
+    "route": "/item/pitarot",
+    "name": "PiTarot",
+    "description": "AI-powered tarot reading platform offering personalized AI readings, card meanings, tarot spreads, and daily guidance.",
+    "categories": [
+      "/category/entertainment"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/timestamp-rocks",
+    "name": "Timestamp Rocks",
+    "description": "Timestamp Rocks is a free Discord timestamp generator that eliminates timezone confusion for communities organizing across the globe.\n",
+    "categories": [
+      "/category/social-media"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/windows",
+      "/tag/web",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/nova-anime-xl",
+    "name": "Nova Anime XL",
+    "description": "Nova Anime XL is a popular SDXL checkpoint merge by Crody for anime, 2.5D, and illustration looks. Latest research release IL v19.0.",
+    "categories": [
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/bunzy",
+    "name": "Bunzy",
+    "description": "Bunzy analyzes your business, finds the best keywords, and auto-publishes expert articles every day, turning your organic traffic into sales.",
+    "categories": [
+      "/category/marketing",
+      "/category/writing",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/betterantispam",
+    "name": "BetterAntispam",
+    "description": "Free Discord anti-spam, anti-raid & anti-nuke bot with verification and honeypot traps.",
+    "categories": [
+      "/category/productivity",
+      "/category/management",
+      "/category/community"
+    ],
+    "tags": [
+      "/tag/beginner",
+      "/tag/android",
+      "/tag/free",
+      "/tag/ios",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/h3art",
+    "name": "H3Art",
+    "description": "Use the MiniMax H3 AI video generator online for text to video and image to video. Create 4–15 second clips up to 2K with native stereo sound.",
+    "categories": [
+      "/category/video",
+      "/category/image",
+      "/category/audio"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/interviewace",
+    "name": "InterviewAce",
+    "description": "Real-time AI answer suggestions during live interviews, grounded in YOUR experience. Works with Zoom and Google Meet. Completely invisible to your int...",
+    "categories": [
+      "/category/productivity",
+      "/category/business",
+      "/category/education"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/android",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/audio-to-text-converter",
+    "name": "Audio To Text Converter",
+    "description": "Transcribe uploaded audio into searchable, editable text. Generate summaries and key points, then export transcripts for notes, captions, and documentation.",
+    "categories": [
+      "/category/audio"
+    ],
+    "tags": [
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/soulthread",
+    "name": "Soulthread",
+    "description": "Soulthread is a memory-driven AI companion and interactive storytelling platform with personalized text and voice conversations.",
+    "categories": [
+      "/category/social-media",
+      "/category/chatbot",
+      "/category/game"
+    ],
+    "tags": [
+      "/tag/browser-extension"
+    ]
+  },
+  {
+    "route": "/item/videolens",
+    "name": "VideoLens",
+    "description": "VideoLens is an AI tool for video prompt reverse engineering. It analyzes popular videos, extracting shot details, camera movements, and text to gener...",
+    "categories": [
+      "/category/video",
+      "/category/analysis",
+      "/category/prompt"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/tranai",
+    "name": "TranAI",
+    "description": "Free chat translation software with real-time AI-powered translation for WhatsApp, Telegram, and 18+ other platforms. It offers multi-instance managem...",
+    "categories": [
+      "/category/translation",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/paid",
+      "/tag/advanced",
+      "/tag/professional",
+      "/tag/windows"
+    ]
+  },
+  {
+    "route": "/item/layven",
+    "name": "Layven",
+    "description": "Claude, ChatGPT and Cursor read and write the same files. Every write is versioned, attributed to the agent that made it, and restorable to any moment.",
+    "categories": [
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/photo-to-text-converter",
+    "name": "Photo to Text Converter",
+    "description": "Free online photo to text converter. Extract text from images, PDFs, and screenshots — copy into notes, or continue to Word or Excel. JPG, PNG, and more.",
+    "categories": [
+      "/category/image",
+      "/category/productivity",
+      "/category/office"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/perchance-ai-image-generator",
+    "name": "Perchance AI Image Generator",
+    "description": "Free Perchance AI Image Generator that runs in your browser. Multi-model text-to-image with no account required.",
+    "categories": [
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/groniz",
+    "name": "Groniz",
+    "description": "Let your local agent post & schedule to 32+ social networks — straight from Claude Code, Codex, or any MCP client. Or drive the same connector core fr...",
+    "categories": [
+      "/category/marketing",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/professional",
+      "/tag/paid",
+      "/tag/free",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/mirofish",
+    "name": "mirofish",
+    "description": "  MiroFish turns prompts and documents into AI scenario graphs, multi-agent simulations,\n  prediction reports, and follow-up chat for decision rehearsal.",
+    "categories": [
+      "/category/video",
+      "/category/audio",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/advanced",
+      "/tag/android",
+      "/tag/beginner",
+      "/tag/browser-extension",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/appbanana",
+    "name": "AppBanana",
+    "description": "AppBanana provides real human testers for Android apps, guaranteeing Google Play closed testing approval within 14 days or a full money-back refund.",
+    "categories": [
+      "/category/development",
+      "/category/business",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/android",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/web",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/vioevo-ai",
+    "name": "VioEvo AI",
+    "description": "Create cinematic videos and images from prompts, source images, clips, and references. ",
+    "categories": [
+      "/category/video",
+      "/category/image",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/free",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/ego-lite",
+    "name": "ego lite",
+    "description": "ego (lite) is the agent browser built to share with your AI agents, like Codex or Claude Code.",
+    "categories": [
+      "/category/development",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/mac",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/pony-diffusion",
+    "name": "Pony Diffusion",
+    "description": "Pony Diffusion is a versatile text-to-image diffusion model that generates high-quality, non-photorealistic images across various styles, free to try online.",
+    "categories": [
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/open-source",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/submitmap",
+    "name": "SubmitMap",
+    "description": "A free directory of launch platforms plus a phased route of guides: where to submit, in what order, and exactly how.",
+    "categories": [
+      "/category/marketing",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/paid",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/mentor",
+    "name": "Mentor",
+    "description": "Mentor is an AI coach that remembers your goals and commitments, guiding you to your own answers through insightful questions. It's anti-addictive and...",
+    "categories": [
+      "/category/chatbot",
+      "/category/productivity",
+      "/category/health"
+    ],
+    "tags": [
+      "/tag/android",
+      "/tag/free",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/fromflow",
+    "name": "FromFlow",
+    "description": "FromFlow is a no-code Discord bot builder. Turn on ready-made apps — tickets, moderation, leveling, giveaways and we host the bot 24/7.\n\n",
+    "categories": [
+      "/category/development"
+    ],
+    "tags": [
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/picktests",
+    "name": "PickTests",
+    "description": "Quick, free online tests for reaction time, aim, memory, focus, and visual tracking. Try once, try again, and see how much better you can do.",
+    "categories": [
+      "/category/game",
+      "/category/education",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/usewok-usewokcom",
+    "name": "UseWok",
+    "description": "Build your SaaS presence across search and AI in 14 days. UseWok creates and publishes original content, social posts, and verified live URLs. $59 once.",
+    "categories": [
+      "/category/social-media",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/premium"
+    ]
+  },
+  {
+    "route": "/item/2048-cupcakes",
+    "name": "2048 Cupcakes",
+    "description": "Play 2048 Cupcakes free online. Slide and merge matching cupcakes from Vanilla Sprinkle to Rainbow Crown. Your game is saved in this browser.",
+    "categories": [
+      "/category/game",
+      "/category/entertainment",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/android",
+      "/tag/ios",
+      "/tag/windows"
+    ]
+  },
+  {
+    "route": "/item/gpt-image-3",
+    "name": "GPT Image 3",
+    "description": "Use GPT Image 3 free online to generate images, edit photos with references, and refine any result through conversation with an AI image agent.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/marketing"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/vozmi",
+    "name": "vozmi",
+    "description": "Vozmi is an AI-powered music and video platform that turns ideas and lyrics into original songs and synchronized music videos with vocals, visuals, and lip sync",
+    "categories": [
+      "/category/audio",
+      "/category/video"
+    ],
+    "tags": [
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/nexiatools",
+    "name": "NexiaTools",
+    "description": "The ultimate all-in-one AI marketing suite for B2B agencies. Replace fragmented software with 30+ tailored micro-apps for SEO, copy, and sales proposals.",
+    "categories": [
+      "/category/marketing",
+      "/category/sales",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/insertpeople",
+    "name": "InsertPeople",
+    "description": "Add a person or pet to a photo online with InsertPeople. Upload your main picture and a separate portrait to insert someone naturally.",
+    "categories": [
+      "/category/image",
+      "/category/design",
+      "/category/daily-life"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/beginner",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/raomusic-ai-music-generator",
+    "name": "RaoMusic AI Music Generator",
+    "description": "Create AI music from text or lyrics, generating songs, instrumentals, and background tracks for various platforms. It offers 50 free credits with no s...",
+    "categories": [
+      "/category/audio",
+      "/category/video",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/paid",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/ai-effect",
+    "name": "AI Effect",
+    "description": "Generate AI videos, create images, and apply 200+ photo & video effects from a photo or prompt — all in one place. No subscription, pay only for what you use.",
+    "categories": [
+      "/category/video",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/beginner",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/ptero",
+    "name": "Ptero",
+    "description": "Ptero is a free, open-source AI chat platform designed for developers, offering access to a wide range of advanced language models without any paid tiers.",
+    "categories": [
+      "/category/chatbot",
+      "/category/development",
+      "/category/code"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/open-source",
+      "/tag/web",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/video2jpg",
+    "name": "Video2Jpg",
+    "description": "Convert video to JPG, PNG, or WebP frames in your browser. High-quality video to image converter with no uploads—fast, private, and free.",
+    "categories": [
+      "/category/video",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/beginner",
+      "/tag/free",
+      "/tag/web"
+    ]
+  },
+  {
+    "route": "/item/ottermind",
+    "name": "Ottermind",
+    "description": "Ottermind is an AI agent workspace for real work. It keeps project context, connects tools, and delivers editable results across web, desktop, and mobile.",
+    "categories": [
+      "/category/productivity",
+      "/category/development",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/windows",
+      "/tag/mac",
+      "/tag/ios",
+      "/tag/android"
+    ]
+  },
+  {
+    "route": "/item/pdf-studio",
+    "name": "PDF Studio",
+    "description": "40 free online PDF tools. Merge, split, compress, convert, sign, and edit PDFs in your browser. No uploads, no sign-up, completely free.",
+    "categories": [
+      "/category/office",
+      "/category/productivity",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/pfp-cropper",
+    "name": "PFP Cropper",
+    "description": "Crop profile pictures for Discord, TikTok, LinkedIn and Facebook with live previews. Free, no signup, no watermark, and photos never leave your browser.",
+    "categories": [
+      "/category/image",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/beginner",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/pzero-pzerostudio",
+    "name": "PZERO",
+    "description": "Top up. Do your thing. Repeat. A two-sided marketplace for AI Credits. Buyers receive a minimum 20% discount.",
+    "categories": [
+      "/category/platform",
+      "/category/image",
+      "/category/video"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/ig-viewer",
+    "name": "IG Viewer",
+    "description": "Browse public Instagram profiles, posts, reels, and stories without an account. Simple, mobile-friendly, credential-free viewing.",
+    "categories": [
+      "/category/social-media"
+    ],
+    "tags": [
+      "/tag/beginner",
+      "/tag/free"
+    ]
+  },
+  {
+    "route": "/item/subtitlegenerator",
+    "name": "SubtitleGenerator",
+    "description": "Turn video into publish-ready subtitles in one browser. Generate, fix flagged words, translate, style, edit timing and export captioned video or subtitle files.",
+    "categories": [
+      "/category/video",
+      "/category/translation"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/image-2-gpt-image-2-generator",
+    "name": "Image 2 — GPT Image 2 Generator",
+    "description": "Image 2 is a free AI image generator and editor powered by GPT Image 2. Get free credits, accurate multilingual text, consistent references, and 4K output.",
+    "categories": [
+      "/category/image",
+      "/category/video",
+      "/category/design"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/paid"
+    ]
+  },
+  {
+    "route": "/item/backlinkview",
+    "name": "BacklinkView",
+    "description": "BacklinkView organizes your backlinks, checks their status daily, and sends email alerts when links disappear or change, with CSV exports.",
+    "categories": [
+      "/category/marketing",
+      "/category/management",
+      "/category/business"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/dochost",
+    "name": "dochost",
+    "description": "Turn HTML to URL and Markdown to HTML in seconds. A free HTML host and Markdown host with a live Markdown preview \n\n paste, get a link, no signup.",
+    "categories": [
+      "/category/development",
+      "/category/productivity",
+      "/category/platform"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/web",
+      "/tag/browser-extension",
+      "/tag/paid",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/the-audio-stuff",
+    "name": "The Audio Stuff",
+    "description": "The Audio Stuff offers 68+ honest, score-anchored audiophile reviews of headphones, speakers, DACs, and amps, along with buying guides and free audio ...",
+    "categories": [
+      "/category/audio",
+      "/category/research",
+      "/category/analysis"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/menuforma",
+    "name": "MenuForma",
+    "description": "Create a free digital QR menu for your restaurant in minutes. AI-powered food photos, 70+ languages, online ordering. No app, no coding required.",
+    "categories": [
+      "/category/business",
+      "/category/marketing",
+      "/category/management"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced"
+    ]
+  },
+  {
+    "route": "/item/photo-to-video-ai-generator",
+    "name": "Photo to Video AI Generator",
+    "description": "Photo to Video AI Generator turns photos into captivating videos with AI, motion control, transitions, editing, upscaling, and 4K output.",
+    "categories": [
+      "/category/video"
+    ],
+    "tags": [
+      "/tag/advanced",
+      "/tag/web",
+      "/tag/professional",
+      "/tag/ios"
+    ]
+  },
+  {
+    "route": "/item/wizstar-ai-video-generator",
+    "name": "Wizstar AI Video Generator",
+    "description": "Create AI videos, product ads, and avatars from text, images and product links. WizStar helps creators, marketers, and business teams produce high-qua...",
+    "categories": [
+      "/category/video",
+      "/category/marketing",
+      "/category/image"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/free",
+      "/tag/paid",
+      "/tag/advanced",
+      "/tag/professional"
+    ]
+  },
+  {
+    "route": "/item/submitdone",
+    "name": "SubmitDone",
+    "description": "SubmitDone is a directory submission service that helps you submit your product to directories with clear coverage, DR growth targets, and transparent...",
+    "categories": [
+      "/category/marketing",
+      "/category/business",
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/web",
+      "/tag/paid",
+      "/tag/professional",
+      "/tag/advanced",
+      "/tag/beginner"
+    ]
+  },
+  {
+    "route": "/item/temp-mail",
+    "name": "Temp Mail",
+    "description": "Learn when to use a temporary email address. Discover seven practical ways TempMail100 can help reduce spam and protect your personal inbox.",
+    "categories": [
+      "/category/productivity"
+    ],
+    "tags": [
+      "/tag/free",
+      "/tag/ios",
+      "/tag/mac",
+      "/tag/android",
+      "/tag/paid"
+    ]
+  }
+]

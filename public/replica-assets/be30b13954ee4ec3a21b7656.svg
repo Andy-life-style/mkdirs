@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" height="630" width="1200">
+  
+  <rect fill="#0a0a0a" height="630" width="1200"></rect>
+
+  
+  <defs>
+    <pattern patternUnits="userSpaceOnUse" height="60" width="60" id="grid">
+      <path stroke-width="1" stroke="rgba(255,255,255,0.03)" fill="none" d="M 60 0 L 0 0 0 60"></path>
+    </pattern>
+    <linearGradient y2="1" x2="1" y1="0" x1="0" id="glow">
+      <stop stop-opacity="0.15" stop-color="#22c55e" offset="0%"></stop>
+      <stop stop-opacity="0" stop-color="#22c55e" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#grid)" height="630" width="1200"></rect>
+
+  
+  <ellipse fill="url(#glow)" ry="300" rx="300" cy="200" cx="200"></ellipse>
+
+  
+  <circle stroke-width="1.5" stroke="#22c55e" fill="rgba(34,197,94,0.15)" r="32" cy="80" cx="100"></circle>
+  <text text-anchor="middle" fill="#22c55e" font-size="22" font-weight="700" font-family="Arial, sans-serif" y="88" x="100">IA</text>
+
+  
+  <text fill="#f1f1f6" font-size="24" font-weight="700" font-family="Arial, sans-serif" y="89" x="148">InterviewAce</text>
+
+  
+  <text fill="#f1f1f6" font-size="64" font-weight="700" font-family="Arial, sans-serif" y="260" x="100">Your AI Co-Pilot for</text>
+  <text fill="#22c55e" font-size="64" font-weight="700" font-family="Arial, sans-serif" y="344" x="100">Every Interview</text>
+
+  
+  <text fill="#9494ab" font-size="28" font-weight="400" font-family="Arial, sans-serif" y="414" x="100">Real-time suggestions. Grounded in your resume.</text>
+  <text fill="#9494ab" font-size="28" font-weight="400" font-family="Arial, sans-serif" y="454" x="100">Invisible to your interviewer.</text>
+
+  
+  <rect stroke-width="1.5" stroke="rgba(34,197,94,0.4)" fill="rgba(34,197,94,0.12)" rx="27" height="54" width="220" y="500" x="100"></rect>
+  <text text-anchor="middle" fill="#22c55e" font-size="22" font-weight="700" font-family="Arial, sans-serif" y="533" x="210">From $9/week</text>
+
+  
+  <rect stroke-width="1" stroke="rgba(255,255,255,0.08)" fill="#13141a" rx="16" height="280" width="380" y="160" x="720"></rect>
+  <rect fill="rgba(255,255,255,0.12)" rx="5" height="10" width="100" y="184" x="740"></rect>
+  <rect fill="rgba(255,255,255,0.06)" rx="3" height="6" width="320" y="206" x="740"></rect>
+  <rect fill="rgba(255,255,255,0.06)" rx="3" height="6" width="260" y="222" x="740"></rect>
+  <rect opacity="0.7" fill="#22c55e" rx="4" height="8" width="120" y="250" x="740"></rect>
+  <rect fill="rgba(34,197,94,0.15)" rx="3" height="6" width="320" y="272" x="740"></rect>
+  <rect fill="rgba(34,197,94,0.15)" rx="3" height="6" width="280" y="288" x="740"></rect>
+  <rect fill="rgba(34,197,94,0.15)" rx="3" height="6" width="300" y="304" x="740"></rect>
+  <rect opacity="0.7" fill="#22c55e" rx="4" height="8" width="120" y="330" x="740"></rect>
+  <rect fill="rgba(34,197,94,0.15)" rx="3" height="6" width="320" y="352" x="740"></rect>
+  <rect fill="rgba(34,197,94,0.15)" rx="3" height="6" width="200" y="368" x="740"></rect>
+  
+  <rect stroke-width="1" stroke="rgba(34,197,94,0.4)" fill="rgba(34,197,94,0.15)" rx="13" height="26" width="92" y="184" x="990"></rect>
+  <text text-anchor="middle" fill="#22c55e" font-size="12" font-weight="700" font-family="Arial, sans-serif" y="202" x="1036">👁 Invisible</text>
+</svg>

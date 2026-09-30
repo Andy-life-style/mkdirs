@@ -37,6 +37,7 @@ export const LoginForm = ({ className }: { className?: string }) => {
   const [isPending, startTransition] = useTransition();
 
   const form = useForm<z.infer<typeof LoginSchema>>({
+    mode: "onChange",
     resolver: zodResolver(LoginSchema),
     defaultValues: {
       email: "",
@@ -136,10 +137,11 @@ export const LoginForm = ({ className }: { className?: string }) => {
               )}
             />
           </div>
+          <div className="h-[65px]" aria-hidden="true" />
           <FormError message={error || urlError} />
           <FormSuccess message={success} />
           <Button
-            disabled={isPending}
+            disabled={isPending || !form.formState.isValid}
             size="lg"
             type="submit"
             className="w-full flex items-center justify-center gap-2"

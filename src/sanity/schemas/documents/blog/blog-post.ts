@@ -96,7 +96,9 @@ export default defineType({
       date: "publishDate",
     },
     prepare({ title, media, date }) {
-      const subtitle = date ? format(parseISO(date), "yyyy/MM/dd") : "unpublished";
+      const subtitle = date
+        ? format(parseISO(date), "yyyy/MM/dd")
+        : "unpublished";
       return {
         title,
         media,

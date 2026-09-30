@@ -335,6 +335,8 @@ export const structure = (
     return S.list()
       .title("Content")
       .items([
+        S.documentTypeListItem("replicaPage").title("AIToolFame pages"),
+        S.divider(),
         // pendingSubmissionsInFreePlan,
         // S.divider(),
 

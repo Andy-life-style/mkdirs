@@ -1,0 +1,23 @@
+{
+  "project": "vnn8nbql",
+  "target": "shopapphub",
+  "original": "production",
+  "expectedPages": 590,
+  "expectedAssets": 448,
+  "uploaded": 0,
+  "reused": 448,
+  "verified": {
+    "files": 20,
+    "images": 428,
+    "pages": 590
+  },
+  "sourceFailures": [
+    {
+      "kind": "page",
+      "url": "https://aitoolfame.com/item/xing-du-miai",
+      "error": "Reference returned NEXT_NOT_FOUND inside streamed HTML. No tool content available."
+    }
+  ],
+  "importFailures": [],
+  "at": "2026-09-29T14:36:43.563Z"
+}

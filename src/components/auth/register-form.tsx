@@ -27,6 +27,7 @@ export const RegisterForm = () => {
   const [isPending, startTransition] = useTransition();
 
   const form = useForm<z.infer<typeof RegisterSchema>>({
+    mode: "onChange",
     resolver: zodResolver(RegisterSchema),
     defaultValues: {
       email: "",
@@ -119,10 +120,11 @@ export const RegisterForm = () => {
               )}
             />
           </div>
+          <div className="h-[65px]" aria-hidden="true" />
           <FormError message={error} />
           <FormSuccess message={success} />
           <Button
-            disabled={isPending}
+            disabled={isPending || !form.formState.isValid}
             size="lg"
             type="submit"
             className="w-full flex items-center justify-center gap-2"

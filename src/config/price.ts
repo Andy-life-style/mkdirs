@@ -12,10 +12,7 @@ export const priceConfig: PriceConfig = {
         "Reviewed and listed within 72 hours",
         "Publish your product the day you want",
       ],
-      limitations: [
-        "Backlink to our site is required",
-        "No customer support",
-      ],
+      limitations: ["Backlink to our site is required", "No customer support"],
       price: 0,
       priceSuffix: "",
       stripePriceId: null,

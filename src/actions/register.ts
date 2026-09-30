@@ -18,6 +18,15 @@ export type ServerActionResponse = {
 export async function register(
   values: z.infer<typeof RegisterSchema>,
 ): Promise<ServerActionResponse> {
+  if (
+    process.env.REPLICA_CMS_READY === "false" ||
+    !process.env.RESEND_API_KEY
+  ) {
+    return {
+      status: "error",
+      message: "Registration is not available yet. Please try again later.",
+    };
+  }
   const validatedFields = RegisterSchema.safeParse(values);
 
   if (!validatedFields.success) {

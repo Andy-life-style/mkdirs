@@ -1,5 +1,6 @@
 import { ogImageSchema } from "@/lib/schemas";
 import { ImageResponse } from "next/og";
+export const dynamic = "force-dynamic";
 
 // export const runtime = "edge";
 

@@ -1,0 +1,311 @@
+{
+  "at": "2026-09-29T12:49:10.798Z",
+  "note": "Thresholded pixel comparison of viewport screenshots, not a claim of semantic equivalence.",
+  "results": [
+    {
+      "page": "blog-category-seo-390.png",
+      "changedPercent": 2.02,
+      "meanDelta": 1.24
+    },
+    {
+      "page": "blog-768.png",
+      "changedPercent": 0.82,
+      "meanDelta": 0.5
+    },
+    {
+      "page": "blog-category-seo-768.png",
+      "changedPercent": 0.82,
+      "meanDelta": 0.51
+    },
+    {
+      "page": "tag-free-1440.png",
+      "changedPercent": 0.78,
+      "meanDelta": 1.15
+    },
+    {
+      "page": "tag-1440.png",
+      "changedPercent": 0.58,
+      "meanDelta": 1.17
+    },
+    {
+      "page": "blog-category-reviews-390.png",
+      "changedPercent": 0.55,
+      "meanDelta": 0.78
+    },
+    {
+      "page": "category-video-1440.png",
+      "changedPercent": 0.52,
+      "meanDelta": 0.51
+    },
+    {
+      "page": "tag-768.png",
+      "changedPercent": 0.38,
+      "meanDelta": 1.02
+    },
+    {
+      "page": "category-768.png",
+      "changedPercent": 0.32,
+      "meanDelta": 0.53
+    },
+    {
+      "page": "category-page-2-768.png",
+      "changedPercent": 0.3,
+      "meanDelta": 0.56
+    },
+    {
+      "page": "category-1440.png",
+      "changedPercent": 0.27,
+      "meanDelta": 0.49
+    },
+    {
+      "page": "category-page-2-1440.png",
+      "changedPercent": 0.22,
+      "meanDelta": 0.45
+    },
+    {
+      "page": "home-1440.png",
+      "changedPercent": 0.17,
+      "meanDelta": 0.36
+    },
+    {
+      "page": "tag-free-768.png",
+      "changedPercent": 0.11,
+      "meanDelta": 1.06
+    },
+    {
+      "page": "blog-launch-directory-seo-first-90-days-1440.png",
+      "changedPercent": 0.09,
+      "meanDelta": 0.06
+    },
+    {
+      "page": "blog-1440.png",
+      "changedPercent": 0.05,
+      "meanDelta": 0.1
+    },
+    {
+      "page": "category-video-768.png",
+      "changedPercent": 0.05,
+      "meanDelta": 0.43
+    },
+    {
+      "page": "home-768.png",
+      "changedPercent": 0.05,
+      "meanDelta": 0.42
+    },
+    {
+      "page": "blog-category-seo-1440.png",
+      "changedPercent": 0.03,
+      "meanDelta": 0.08
+    },
+    {
+      "page": "tag-390.png",
+      "changedPercent": 0.01,
+      "meanDelta": 0.52
+    },
+    {
+      "page": "tag-free-390.png",
+      "changedPercent": 0.01,
+      "meanDelta": 0.52
+    },
+    {
+      "page": "about-1440.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "about-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "about-768.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "auth-login-1440.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "auth-login-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "auth-login-768.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "auth-register-1440.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "auth-register-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "auth-register-768.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "auth-reset-1440.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "auth-reset-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "auth-reset-768.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "blog-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0.12
+    },
+    {
+      "page": "blog-category-reviews-1440.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "blog-launch-directory-seo-first-90-days-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "blog-launch-directory-seo-first-90-days-768.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "blog-theaudiostuff-review-1440.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "blog-theaudiostuff-review-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "category-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "category-page-2-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "category-video-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "collection-1440.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "collection-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "collection-768.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "home-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "item-cursor-1440.png",
+      "changedPercent": 0,
+      "meanDelta": 0.22
+    },
+    {
+      "page": "item-cursor-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0.26
+    },
+    {
+      "page": "item-cursor-768.png",
+      "changedPercent": 0,
+      "meanDelta": 0.45
+    },
+    {
+      "page": "pricing-1440.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "pricing-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "pricing-768.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "privacy-1440.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "privacy-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "privacy-768.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "submit-1440.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "submit-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "submit-768.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "terms-1440.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "terms-390.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    },
+    {
+      "page": "terms-768.png",
+      "changedPercent": 0,
+      "meanDelta": 0
+    }
+  ]
+}
