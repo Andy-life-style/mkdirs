@@ -5,9 +5,7 @@ import type { MetadataRoute } from "next";
  * https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots
  */
 export default function robots(): MetadataRoute.Robots {
-  const replicaPreview =
-    process.env.AITOOLFAME_REPLICA !== "false" &&
-    process.env.VERCEL_ENV !== "production";
+  const replicaPreview = process.env.VERCEL_ENV !== "production";
   return {
     rules: {
       userAgent: "*",

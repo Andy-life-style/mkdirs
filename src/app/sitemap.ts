@@ -1,5 +1,6 @@
 import { COLLECTIONS_PER_PAGE, ITEMS_PER_PAGE } from "@/lib/constants";
 import { getReplicaManifest } from "@/lib/replica";
+import { replicaMode } from "@/lib/replica-mode";
 import type {
   BlogCategoryListQueryForSitemapResult,
   BlogListQueryForSitemapResult,
@@ -31,7 +32,7 @@ const site_url = process.env.NEXT_PUBLIC_APP_URL;
  * https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  if (process.env.AITOOLFAME_REPLICA !== "false") {
+  if (replicaMode) {
     if (!site_url) return [];
     const manifest = await getReplicaManifest();
     return Object.keys(manifest.pages)

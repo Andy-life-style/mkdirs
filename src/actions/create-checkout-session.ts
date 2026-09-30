@@ -2,6 +2,7 @@
 
 import { getUserById } from "@/data/user";
 import { currentUser } from "@/lib/auth";
+import { replicaMode } from "@/lib/replica-mode";
 import { stripe } from "@/lib/stripe";
 import { absoluteUrl } from "@/lib/utils";
 import { sanityClient } from "@/sanity/lib/client";
@@ -25,7 +26,7 @@ export async function createCheckoutSession(
   pricePlan: string,
 ): Promise<ServerActionResponse> {
   if (
-    process.env.AITOOLFAME_REPLICA !== "false" &&
+    replicaMode &&
     (process.env.REPLICA_CMS_READY !== "true" ||
       process.env.REPLICA_BUSINESS_ENABLED !== "true")
   )

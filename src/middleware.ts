@@ -1,3 +1,4 @@
+import { replicaMode } from "@/lib/replica-mode";
 import {
   DEFAULT_LOGIN_REDIRECT,
   apiAuthPrefix,
@@ -19,7 +20,7 @@ const { auth } = NextAuth({ providers: [], session: { strategy: "jwt" } });
 export default auth((req) => {
   const { nextUrl } = req;
   const replicaBusinessClosed =
-    process.env.AITOOLFAME_REPLICA !== "false" &&
+    replicaMode &&
     (process.env.REPLICA_CMS_READY !== "true" ||
       process.env.REPLICA_BUSINESS_ENABLED !== "true");
   if (
@@ -48,11 +49,7 @@ export default auth((req) => {
     /^\/(?:$|category(?:\/|$)|tag(?:\/|$)|collection(?:\/|$)|item(?:\/|$)|blog(?:\/|$)|pricing$|about$|privacy$|terms$|search$)/.test(
       nextUrl.pathname,
     );
-  if (
-    process.env.AITOOLFAME_REPLICA !== "false" &&
-    replicaRoute &&
-    req.method === "GET"
-  ) {
+  if (replicaMode && replicaRoute && req.method === "GET") {
     const target = new URL("/replica", nextUrl);
     const host = req.headers.get("host");
     if (host && /^localhost(?::\d+)?$/.test(host)) target.host = host;

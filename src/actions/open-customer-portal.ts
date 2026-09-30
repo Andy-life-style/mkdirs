@@ -1,6 +1,7 @@
 "use server";
 
 import { currentUser } from "@/lib/auth";
+import { replicaMode } from "@/lib/replica-mode";
 import { stripe } from "@/lib/stripe";
 import { absoluteUrl } from "@/lib/utils";
 import { redirect } from "next/navigation";
@@ -20,7 +21,7 @@ export async function openCustomerPortal(
   stripeCustomerId: string,
 ): Promise<ServerActionResponse> {
   if (
-    process.env.AITOOLFAME_REPLICA !== "false" &&
+    replicaMode &&
     (process.env.REPLICA_CMS_READY !== "true" ||
       process.env.REPLICA_BUSINESS_ENABLED !== "true")
   )

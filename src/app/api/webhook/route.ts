@@ -2,6 +2,7 @@ import { getOrderByUserIdAndItemId } from "@/data/order";
 import { getUserById } from "@/data/user";
 import { sendMessageToDiscord } from "@/lib/discord";
 import { sendPaymentSuccessEmail } from "@/lib/mail";
+import { replicaMode } from "@/lib/replica-mode";
 import { stripe } from "@/lib/stripe";
 import { PricePlans, ProPlanStatus, SponsorPlanStatus } from "@/lib/submission";
 import { getItemLinkInWebsite } from "@/lib/utils";
@@ -20,7 +21,7 @@ import type Stripe from "stripe";
  */
 export async function POST(req: Request) {
   if (
-    process.env.AITOOLFAME_REPLICA !== "false" &&
+    replicaMode &&
     (process.env.REPLICA_CMS_READY !== "true" ||
       process.env.REPLICA_BUSINESS_ENABLED !== "true")
   )

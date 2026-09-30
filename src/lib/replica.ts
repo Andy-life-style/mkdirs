@@ -23,7 +23,7 @@ export async function getReplicaManifest(): Promise<Manifest> {
   );
 }
 async function readPage(page: PageRecord) {
-  if (process.env.REPLICA_CONTENT_SOURCE !== "bundled") {
+  if (process.env.VERCEL || process.env.REPLICA_CONTENT_SOURCE !== "bundled") {
     const route = new URL(page.source).pathname + new URL(page.source).search;
     const id = `replica.page.${createHash("sha256").update(route).digest("hex").slice(0, 32)}`;
     const { sanityClient } = await import("@/sanity/lib/client");

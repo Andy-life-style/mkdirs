@@ -11,6 +11,7 @@ import { Analytics } from "@/components/analytics/analytics";
 import { TailwindIndicator } from "@/components/tailwind-indicator";
 import { Toaster } from "@/components/ui/sonner";
 import { constructMetadata } from "@/lib/metadata";
+import { replicaMode } from "@/lib/replica-mode";
 import { cn } from "@/lib/utils";
 import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
@@ -56,10 +57,8 @@ export default async function RootLayout({ children }: RootLayoutProps) {
             {/* https://sonner.emilkowal.ski/toaster */}
             <Toaster richColors position="top-right" offset={64} />
 
-            {process.env.AITOOLFAME_REPLICA === "false" && (
-              <TailwindIndicator />
-            )}
-            {process.env.AITOOLFAME_REPLICA === "false" && <Analytics />}
+            {!replicaMode && <TailwindIndicator />}
+            {!replicaMode && <Analytics />}
           </ThemeProvider>
         </SessionProvider>
       </body>
